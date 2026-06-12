@@ -1,0 +1,92 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wpbbe/simple-scroller-content",
+  "title": "Scroller Content",
+  "description": "A scrollable content.",
+  "category": "layout",
+  "textdomain": "better-block-editor",
+  "ancestor": [
+    "wpbbe/simple-scroller"
+  ],
+  "supports": {
+    "html": false,
+    "spacing": {
+      "margin": true,
+      "padding": false
+    },
+    "__experimentalBorder": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true,
+      "__experimentalDefaultControls": {
+        "color": true,
+        "radius": true,
+        "style": true,
+        "width": true
+      }
+    }
+  },
+  "attributes": {
+    "items": {
+      "type": "number",
+      "default": 5
+    },
+    "itemMinWidth": {
+      "type": "string"
+    },
+    "itemMinHeight": {
+      "type": "string"
+    },
+    "scrollSnapAlign": {
+      "type": "string"
+    },
+    "scrollPadding": {
+      "type": "string"
+    },
+    "itemGap": {
+      "type": "string"
+    },
+    "wpbbeResponsive": {
+      "type": "object",
+      "breakpoint": {
+        "type": "string"
+      },
+      "breakpointCustomValue": {
+        "type": "string"
+      },
+      "settings": {
+        "items": {
+          "type": "number"
+        },
+        "itemMinWidth": {
+          "type": "string"
+        },
+        "itemMinHeight": {
+          "type": "string"
+        },
+        "scrollSnapAlign": {
+          "type": "string"
+        },
+        "scrollPadding": {
+          "type": "string"
+        },
+        "itemGap": {
+          "type": "string"
+        }
+      }
+    },
+    "justifyContent": {
+      "type": "string",
+      "default": "center"
+    },
+    "verticalAlignment": {
+      "type": "string",
+      "default": "top"
+    }
+  },
+  "editorScript": [
+    "file:./index.js"
+  ]
+}

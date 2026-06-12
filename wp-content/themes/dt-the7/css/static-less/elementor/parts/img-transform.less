@@ -1,0 +1,15 @@
+.the7-overlay-container:hover .the7-overlay-content:before,
+.the7-overlay-container:hover > .the7-overlay-content {
+  transition: transform var(--transition-img-forward-duration, 0.3s) var(--transition-overlay-timing, ease), opacity var(--transition-overlay-duration, 0.3s) var(--transition-overlay-timing, ease);
+}
+.the7-overlay-container:not(:hover) .the7-overlay-content:before,
+.the7-overlay-container:not(:hover) > .the7-overlay-content {
+  transition: transform var(--transition-img-back-duration, 0.3s) var(--transition-overlay-timing, ease), opacity var(--transition-overlay-duration-out, 0.3s) var(--transition-overlay-timing, ease);
+}
+
+.the7-image-wrapper:not(:hover) img.run-img-transitions {
+  transition: all var(--transition-img-back-duration, 0.3s) var(--transition-overlay-timing, ease) !important;
+}
+.the7-image-wrapper:hover img.run-img-transitions {
+  transition: all var(--transition-img-forward-duration, 0.3s) var(--transition-overlay-timing, ease) !important;
+}

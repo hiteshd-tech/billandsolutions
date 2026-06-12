@@ -1,0 +1,610 @@
+{
+    "version": 3,
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "title": "The7 FSE Business",
+    "settings": {
+        "color": {
+            "defaultPalette": false,
+            "gradients": [
+                {
+                    "gradient": "linear-gradient(180deg,rgb(248,250,252) 50%,rgba(255,255,255,0) 50%)",
+                    "name": "Gradient 1",
+                    "slug": "bbe-gradient-1"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgba(0,0,0,0) 50%,rgb(248,250,252) 50%)",
+                    "name": "Gradient 2",
+                    "slug": "bbe-gradient-2"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgb(248,250,252) 21%,rgba(255,255,255,0) 99%)",
+                    "name": "Gradient 3",
+                    "slug": "bbe-gradient-3"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgba(255,255,255,0) 0%,rgb(248,250,252) 80%)",
+                    "name": "Gradient 4",
+                    "slug": "bbe-gradient-4"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgb(241,245,249) 19%,rgba(255,255,255,0) 100%)",
+                    "name": "Gradient 5",
+                    "slug": "bbe-gradient-5"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgba(255,255,255,0) 0%,rgb(241,245,249) 80%)",
+                    "name": "Gradient 6",
+                    "slug": "bbe-gradient-6"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgb(240,247,255) 20%,rgba(255,255,255,0) 100%)",
+                    "name": "Gradient 7",
+                    "slug": "bbe-gradient-7"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgba(255,255,255,0) 0%,rgb(240,247,255) 81%)",
+                    "name": "Gradient 8",
+                    "slug": "bbe-gradient-8"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgb(241,252,242) 19%,rgba(255,255,255,0) 100%)",
+                    "name": "Gradient 9",
+                    "slug": "bbe-gradient-9"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgba(255,255,255,0) 0%,rgb(241,252,242) 81%)",
+                    "name": "Gradient 10",
+                    "slug": "bbe-gradient-10"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgb(0,32,87) 0%,rgba(255,255,255,0) 70%)",
+                    "name": "Gradient 11",
+                    "slug": "bbe-gradient-11"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgba(255,255,255,0) 30%,rgb(0,32,87) 99%)",
+                    "name": "Gradient 12",
+                    "slug": "bbe-gradient-12"
+                },
+                {
+                    "gradient": "linear-gradient(90deg,rgb(0,32,87) 0%,rgb(0,72,159) 98%)",
+                    "name": "Gradient 13",
+                    "slug": "bbe-gradient-13"
+                },
+                {
+                    "gradient": "linear-gradient(90deg,rgb(0,72,159) 0%,rgb(0,32,87) 99%)",
+                    "name": "Gradient 14",
+                    "slug": "bbe-gradient-14"
+                }
+            ],
+            "palette": [
+                {
+                    "color": "#0d1426",
+                    "name": "Neutral 950",
+                    "slug": "bbe-neutral-950"
+                },
+                {
+                    "color": "#1b253b",
+                    "name": "Neutral 900",
+                    "slug": "bbe-neutral-900"
+                },
+                {
+                    "color": "#273249",
+                    "name": "Neutral 800",
+                    "slug": "bbe-neutral-800"
+                },
+                {
+                    "color": "#314158",
+                    "name": "Neutral 700",
+                    "slug": "bbe-neutral-700"
+                },
+                {
+                    "color": "#45556c",
+                    "name": "Neutral 600",
+                    "slug": "bbe-neutral-600"
+                },
+                {
+                    "color": "#62748e",
+                    "name": "Neutral 500",
+                    "slug": "bbe-neutral-500"
+                },
+                {
+                    "color": "#90a1b9",
+                    "name": "Neutral 400",
+                    "slug": "bbe-neutral-400"
+                },
+                {
+                    "color": "#cad5e2",
+                    "name": "Neutral 300",
+                    "slug": "bbe-neutral-300"
+                },
+                {
+                    "color": "#e2e8f0",
+                    "name": "Neutral 200",
+                    "slug": "bbe-neutral-200"
+                },
+                {
+                    "color": "#f1f5f9",
+                    "name": "Neutral 100",
+                    "slug": "bbe-neutral-100"
+                },
+                {
+                    "color": "#f8fafc",
+                    "name": "Neutral 50",
+                    "slug": "bbe-neutral-050"
+                },
+                {
+                    "color": "#ffffff",
+                    "name": "Neutral 000",
+                    "slug": "bbe-neutral-000"
+                },
+                {
+                    "color": "#002057",
+                    "name": "Primary 950",
+                    "slug": "bbe-primary-950"
+                },
+                {
+                    "color": "#00337a",
+                    "name": "Primary 900",
+                    "slug": "bbe-primary-900"
+                },
+                {
+                    "color": "#00489F",
+                    "name": "Primary 800",
+                    "slug": "bbe-primary-800"
+                },
+                {
+                    "color": "#0B60C6",
+                    "name": "Primary 700",
+                    "slug": "bbe-primary-700"
+                },
+                {
+                    "color": "#1077EA",
+                    "name": "Primary 600",
+                    "slug": "bbe-primary-600"
+                },
+                {
+                    "color": "#398bfe",
+                    "name": "Primary 500",
+                    "slug": "bbe-primary-500"
+                },
+                {
+                    "color": "#70AAFF",
+                    "name": "Primary 400",
+                    "slug": "bbe-primary-400"
+                },
+                {
+                    "color": "#9AC3FF",
+                    "name": "Primary 300",
+                    "slug": "bbe-primary-300"
+                },
+                {
+                    "color": "#C3DCFF",
+                    "name": "Primary 200",
+                    "slug": "bbe-primary-200"
+                },
+                {
+                    "color": "#DEECFF",
+                    "name": "Primary 100",
+                    "slug": "bbe-primary-100"
+                },
+                {
+                    "color": "#F0F7FF",
+                    "name": "Primary 50",
+                    "slug": "bbe-primary-050"
+                },
+                {
+                    "color": "#112f0e",
+                    "name": "Secondary 950",
+                    "slug": "bbe-secondary-950"
+                },
+                {
+                    "color": "#1a4516",
+                    "name": "Secondary 900",
+                    "slug": "bbe-secondary-900"
+                },
+                {
+                    "color": "#275E22",
+                    "name": "Secondary 800",
+                    "slug": "bbe-secondary-800"
+                },
+                {
+                    "color": "#398432",
+                    "name": "Secondary 700",
+                    "slug": "bbe-secondary-700"
+                },
+                {
+                    "color": "#46a843",
+                    "name": "Secondary 600",
+                    "slug": "bbe-secondary-600"
+                },
+                {
+                    "color": "#53c653",
+                    "name": "Secondary 500",
+                    "slug": "bbe-secondary-500"
+                },
+                {
+                    "color": "#7ada77",
+                    "name": "Secondary 400",
+                    "slug": "bbe-secondary-400"
+                },
+                {
+                    "color": "#98eb9a",
+                    "name": "Secondary 300",
+                    "slug": "bbe-secondary-300"
+                },
+                {
+                    "color": "#c4f3c5",
+                    "name": "Secondary 200",
+                    "slug": "bbe-secondary-200"
+                },
+                {
+                    "color": "#DEF7E0",
+                    "name": "Secondary 100",
+                    "slug": "bbe-secondary-100"
+                },
+                {
+                    "color": "#F1FCF2",
+                    "name": "Secondary 50",
+                    "slug": "bbe-secondary-050"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "blocks": {
+            "core/button": {
+                "color": {
+                    "text": "var(--wp--preset--color--bbe-neutral-000)"
+                },
+                "elements": {
+                    "link": {
+                        "color": {
+                            "text": "var(--wp--preset--bbe-neutral-000)"
+                        }
+                    }
+                },
+                "variations": {
+                    "outline": {
+                        "border": {
+                            "bottom": {
+                                "color": "var(--wp--preset--color--bbe-primary-200)"
+                            },
+                            "color": "var(--wp--preset--color--bbe-primary-500)",
+                            "left": {
+                                "color": "var(--wp--preset--color--bbe-primary-200)"
+                            },
+                            "right": {
+                                "color": "var(--wp--preset--color--bbe-primary-200)"
+                            },
+                            "top": {
+                                "color": "var(--wp--preset--color--bbe-primary-200)"
+                            }
+                        },
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-primary-600)"
+                        }
+                    },
+                    "style-6": {
+                        "border": {
+                            "bottom": {
+                                "color": "var(--wp--preset--color--bbe-primary-300)"
+                            },
+                            "color": null
+                        },
+                        "color": {
+                            "background": "#ffffff00",
+                            "text": "var(--wp--preset--color--bbe-primary-600)"
+                        },
+                        "elements": {
+                            "link": {
+                                "color": {
+                                    "text": "var(--wp--preset--color--bbe-primary-600)"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "core/comment-author-name": {
+                "color": {
+                    "text": "var(--wp--preset--color--bbe-neutral-900)"
+                },
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": "var(--wp--preset--color--bbe-primary-500)"
+                            }
+                        },
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-neutral-900)"
+                        }
+                    }
+                }
+            },
+            "core/comment-date": {
+                "color": {
+                    "text": "var(--wp--preset--color--bbe-neutral-400)"
+                },
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": "var(--wp--preset--color--bbe-primary-600)"
+                            }
+                        },
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-neutral-400)"
+                        }
+                    }
+                }
+            },
+            "core/comment-edit-link": {
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": "var(--wp--preset--color--bbe-primary-600)"
+                            }
+                        },
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-neutral-400)"
+                        }
+                    }
+                }
+            },
+            "core/comment-reply-link": {
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": "var(--wp--preset--color--bbe-primary-600)"
+                            }
+                        },
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-neutral-400)"
+                        }
+                    }
+                }
+            },
+            "core/comments-pagination": {
+                "color": {
+                    "text": "var(--wp--preset--color--bbe-primary-600)"
+                },
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": "var(--wp--preset--color--bbe-primary-500)"
+                            }
+                        },
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-primary-600)"
+                        }
+                    }
+                }
+            },
+            "core/list": {
+                "color": {
+                    "text": "var(--wp--preset--color--bbe-neutral-950)"
+                },
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": "var(--wp--preset--color--bbe-primary-500)"
+                            }
+                        },
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-primary-600)"
+                        }
+                    }
+                }
+            },
+            "core/navigation-link": {
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "core/post-author-name": {
+                "color": {
+                    "text": ""
+                },
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": ""
+                            }
+                        },
+                        "color": {
+                            "text": ""
+                        }
+                    }
+                }
+            },
+            "core/post-date": {
+                "color": {
+                    "text": ""
+                },
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": ""
+                            }
+                        },
+                        "color": {
+                            "text": ""
+                        }
+                    }
+                }
+            },
+            "core/post-terms": {
+                "color": {
+                    "text": ""
+                },
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": ""
+                            }
+                        },
+                        "color": {
+                            "text": ""
+                        }
+                    }
+                }
+            },
+            "core/pullquote": {
+                "border": {
+                    "bottom": {
+                        "color": "var(--wp--preset--color--bbe-primary-500)"
+                    },
+                    "color": null,
+                    "top": {
+                        "color": "var(--wp--preset--color--bbe-primary-500)"
+                    }
+                },
+                "color": {
+                    "text": "var(--wp--preset--color--bbe-neutral-900)"
+                },
+                "elements": {
+                    "link": {
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-neutral-900)"
+                        }
+                    }
+                }
+            },
+            "core/query-no-results": {
+                "color": {
+                    "text": "var(--wp--preset--color--bbe-neutral-500)"
+                },
+                "elements": {
+                    "link": {
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-neutral-500)"
+                        }
+                    }
+                }
+            },
+            "core/query-pagination": {
+                "color": {
+                    "text": "var(--wp--preset--color--bbe-primary-600)"
+                },
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": "var(--wp--preset--color--bbe-primary-700)"
+                            }
+                        },
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-primary-600)"
+                        }
+                    }
+                }
+            },
+            "core/quote": {
+                "border": {
+                    "color": null,
+                    "left": {
+                        "color": "var(--wp--preset--color--bbe-primary-400)"
+                    }
+                },
+                "color": {
+                    "text": "var(--wp--preset--color--bbe-neutral-900)"
+                },
+                "elements": {
+                    "heading": {
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-neutral-950)"
+                        }
+                    },
+                    "link": {
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-neutral-900)"
+                        }
+                    }
+                }
+            },
+            "core/read-more": {
+                "border": {
+                    "bottom": {
+                        "color": "var(--wp--preset--color--bbe-primary-300)"
+                    },
+                    "color": null
+                },
+                "color": {
+                    "text": "var(--wp--preset--color--bbe-primary-600)"
+                },
+                "elements": {
+                    "link": {
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-primary-600)"
+                        }
+                    }
+                }
+            },
+            "core/search": {
+                "color": {
+                    "background": "var(--wp--preset--color--bbe-neutral-000)",
+                    "text": "var(--wp--preset--color--bbe-neutral-500)"
+                },
+                "elements": {
+                    "link": {
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-neutral-500)"
+                        }
+                    }
+                }
+            }
+        },
+        "color": {
+            "background": "var(--wp--preset--color--white)",
+            "text": "var(--wp--preset--color--bbe-neutral-700)"
+        },
+        "elements": {
+            "button": {
+                ":hover": {
+                    "color": {
+                        "background": "var(--wp--preset--color--bbe-primary-600)"
+                    }
+                },
+                "color": {
+                    "background": "var(--wp--preset--color--bbe-primary-500)",
+                    "text": "var(--wp--preset--color--bbe-neutral-000)"
+                }
+            },
+            "caption": {
+                "color": {
+                    "text": "var(--wp--preset--color--bbe-neutral-400)"
+                }
+            },
+            "heading": {
+                "color": {
+                    "text": "var(--wp--preset--color--bbe-neutral-950)"
+                }
+            },
+            "link": {
+                ":hover": {
+                    "color": {
+                        "text": "var(--wp--preset--color--bbe-primary-500)"
+                    }
+                },
+                "color": {
+                    "text": "var(--wp--preset--color--bbe-primary-600)"
+                }
+            }
+        }
+    }
+}

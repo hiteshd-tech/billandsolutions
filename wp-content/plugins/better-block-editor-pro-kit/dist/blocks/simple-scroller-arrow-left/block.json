@@ -1,0 +1,112 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wpbbe/simple-scroller-arrow-left",
+  "title": "Scroll Previous",
+  "description": "Scroll Previous",
+  "category": "layout",
+  "textdomain": "better-block-editor",
+  "ancestor": [
+    "wpbbe/simple-scroller"
+  ],
+  "supports": {
+    "html": false,
+    "shadow": true,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    },
+    "__experimentalBorder": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true,
+      "__experimentalDefaultControls": {
+        "color": true,
+        "radius": true,
+        "style": true,
+        "width": true
+      }
+    },
+    "__experimentalGlobalStyles": true
+  },
+  "attributes": {
+    "color": {
+      "type": "string"
+    },
+    "fillColor": {
+      "type": "string"
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "hoverColor": {
+      "type": "string"
+    },
+    "hoverFillColor": {
+      "type": "string"
+    },
+    "hoverBackgroundColor": {
+      "type": "string"
+    },
+    "hoverBorderColor": {
+      "type": "string"
+    },
+    "inactiveOpacity": {
+      "type": "number"
+    },
+    "imageID": {
+      "type": "number",
+      "default": 0
+    },
+    "imageURL": {
+      "type": "string",
+      "default": ""
+    },
+    "alignment": {
+      "type": "string"
+    },
+    "imageWidth": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "rel": {
+      "type": "string"
+    },
+    "overlap": {
+      "type": "string"
+    },
+    "overlapOffset": {
+      "type": "string"
+    },
+    "wpbbeResponsive": {
+      "type": "object",
+      "breakpoint": {
+        "type": "string"
+      },
+      "breakpointCustomValue": {
+        "type": "string"
+      },
+      "settings": {
+        "overlap": {
+          "type": "string"
+        },
+        "overlapOffset": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "selectors": {
+    "border": ".nsLeftArrow > .svg-wrapper",
+    "spacing": {
+      "margin": ".nsLeftArrow > .svg-wrapper",
+      "padding": ".nsLeftArrow > .svg-wrapper"
+    }
+  },
+  "editorScript": [
+    "file:./index.js"
+  ]
+}

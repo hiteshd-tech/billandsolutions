@@ -1,0 +1,88 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wpbbe/post-meta",
+  "title": "BBE Custom Field",
+  "description": "Display a post meta value from the current post context.",
+  "category": "theme",
+  "textdomain": "better-block-editor",
+  "usesContext": [
+    "postId",
+    "postType",
+    "query",
+    "queryId"
+  ],
+  "supports": {
+    "html": false,
+    "color": {
+      "text": true,
+      "background": true,
+      "link": true,
+      "gradients": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "textAlign": true,
+      "__experimentalFontFamily": true,
+      "__experimentalFontWeight": true,
+      "__experimentalFontStyle": true,
+      "__experimentalTextTransform": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalLetterSpacing": true
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true
+    },
+    "__experimentalBorder": {
+      "radius": true,
+      "color": true,
+      "width": true,
+      "style": true,
+      "__experimentalDefaultControls": {
+        "radius": true,
+        "color": true,
+        "width": true,
+        "style": true
+      }
+    }
+  },
+  "attributes": {
+    "postType": {
+      "type": "string"
+    },
+    "metaKey": {
+      "type": "string"
+    },
+    "mode": {
+      "type": "string",
+      "enum": [
+        "text",
+        "link"
+      ],
+      "default": "text"
+    },
+    "prefix": {
+      "type": "string",
+      "default": "",
+      "role": "content"
+    },
+    "suffix": {
+      "type": "string",
+      "default": "",
+      "role": "content"
+    },
+    "linkText": {
+      "type": "string",
+      "default": ""
+    },
+    "openInNewTab": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

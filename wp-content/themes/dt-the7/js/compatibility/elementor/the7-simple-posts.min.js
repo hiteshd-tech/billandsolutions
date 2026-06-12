@@ -1,0 +1,1 @@
+jQuery(window).on("elementor/frontend/init",(function(){elementorFrontend.hooks.addAction("frontend/element_ready/the7-elements-simple-posts.default",(function(n,e){e((function(){window.the7ProcessEffects(n.find(".wf-cell:not(.shown)")),window.the7ApplyMasonryWidgetCSSGridFiltering(n.find(".dt-css-grid"))}))}))}));

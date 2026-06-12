@@ -1,0 +1,222 @@
+{
+    "version": 3,
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "title": "The7 FSE Business",
+    "settings": {
+        "typography": {
+            "fontSizes": [
+                {
+                    "fluid": false,
+                    "name": "XXS",
+                    "size": "13px",
+                    "slug": "bbe-2-x-small"
+                },
+                {
+                    "fluid": false,
+                    "name": "XS",
+                    "size": "14px",
+                    "slug": "bbe-x-small"
+                },
+                {
+                    "fluid": false,
+                    "name": "S",
+                    "size": "15px",
+                    "slug": "bbe-small"
+                },
+                {
+                    "fluid": false,
+                    "name": "M",
+                    "size": "16px",
+                    "slug": "bbe-medium"
+                },
+                {
+                    "fluid": false,
+                    "name": "L",
+                    "size": "17px",
+                    "slug": "bbe-large"
+                },
+                {
+                    "fluid": {
+                        "max": "19px",
+                        "min": "18px"
+                    },
+                    "name": "XL",
+                    "size": "19px",
+                    "slug": "bbe-x-large"
+                },
+                {
+                    "fluid": {
+                        "max": "20px",
+                        "min": "19px"
+                    },
+                    "name": "XXL",
+                    "size": "20px",
+                    "slug": "bbe-2-x-large"
+                },
+                {
+                    "fluid": false,
+                    "name": "Title 6",
+                    "size": "21px",
+                    "slug": "bbe-title-6"
+                },
+                {
+                    "fluid": false,
+                    "name": "Title 5",
+                    "size": "24px",
+                    "slug": "bbe-title-5"
+                },
+                {
+                    "fluid": false,
+                    "name": "Title 4",
+                    "size": "28px",
+                    "slug": "bbe-title-4"
+                },
+                {
+                    "fluid": {
+                        "max": "36px",
+                        "min": "32px"
+                    },
+                    "name": "Title 3",
+                    "size": "36px",
+                    "slug": "bbe-title-3"
+                },
+                {
+                    "fluid": {
+                        "max": "48px",
+                        "min": "36px"
+                    },
+                    "name": "Title 2",
+                    "size": "48px",
+                    "slug": "bbe-title-2"
+                },
+                {
+                    "fluid": {
+                        "max": "60px",
+                        "min": "36px"
+                    },
+                    "name": "Title 1",
+                    "size": "60px",
+                    "slug": "bbe-title-1"
+                },
+                {
+                    "fluid": {
+                        "max": "72px",
+                        "min": "44px"
+                    },
+                    "name": "Display 3",
+                    "size": "72px",
+                    "slug": "bbe-display-3"
+                },
+                {
+                    "fluid": {
+                        "max": "88px",
+                        "min": "56px"
+                    },
+                    "name": "Display 2",
+                    "size": "88px",
+                    "slug": "bbe-display-2"
+                },
+                {
+                    "fluid": {
+                        "max": "128px",
+                        "min": "72px"
+                    },
+                    "name": "Display 1",
+                    "size": "128px",
+                    "slug": "bbe-display-1"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "blocks": {
+            "core/button": {
+                "variations": {
+                    "style-2": {
+                        "typography": {
+                            "fontSize": "var(--wp--preset--font-size--bbe-x-small)"
+                        }
+                    },
+                    "style-3": {
+                        "typography": {
+                            "fontSize": "var(--wp--preset--font-size--bbe-small)"
+                        }
+                    },
+                    "style-6": {
+                        "typography": {
+                            "fontStyle": "normal",
+                            "fontWeight": "500",
+                            "letterSpacing": "0.02em",
+                            "textTransform": "uppercase"
+                        }
+                    }
+                }
+            },
+            "core/buttons": {
+                "typography": {
+                    "lineHeight": "1.1",
+                    "textTransform": "capitalize"
+                }
+            },
+            "core/comment-author-name": {
+                "typography": {
+                    "fontStyle": "normal",
+                    "fontWeight": "500"
+                }
+            },
+            "core/comment-date": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-x-small)"
+                }
+            },
+            "core/comment-edit-link": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-x-small)"
+                }
+            },
+            "core/comment-reply-link": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-x-small)"
+                }
+            },
+            "core/list": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-medium)",
+                    "fontStyle": "normal",
+                    "fontWeight": "500"
+                }
+            },
+            "core/pullquote": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-2-x-large)"
+                }
+            },
+            "core/query-pagination": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-small)",
+                    "fontStyle": "normal",
+                    "fontWeight": "500"
+                }
+            },
+            "core/quote": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-2-x-large)"
+                }
+            },
+            "core/read-more": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-x-small)",
+                    "fontStyle": "normal",
+                    "fontWeight": "500",
+                    "letterSpacing": "0.02em",
+                    "textTransform": "uppercase"
+                }
+            },
+            "core/search": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-small)"
+                }
+            }
+        }
+    }
+}

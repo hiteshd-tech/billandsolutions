@@ -1,0 +1,92 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wpbbe/svg-inline",
+  "title": "SVG Icon",
+  "description": "Display the SVG icon",
+  "category": "design",
+  "textdomain": "better-block-editor",
+  "supports": {
+    "html": false,
+    "shadow": true,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    },
+    "__experimentalBorder": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true,
+      "__experimentalDefaultControls": {
+        "color": true,
+        "radius": true,
+        "style": true,
+        "width": true
+      }
+    },
+    "__experimentalGlobalStyles": true
+  },
+  "attributes": {
+    "color": {
+      "type": "string"
+    },
+    "fillColor": {
+      "type": "string"
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "hoverColor": {
+      "type": "string"
+    },
+    "hoverFillColor": {
+      "type": "string"
+    },
+    "hoverBackgroundColor": {
+      "type": "string"
+    },
+    "hoverBorderColor": {
+      "type": "string"
+    },
+    "imageID": {
+      "type": "number",
+      "default": 0
+    },
+    "imageURL": {
+      "type": "string",
+      "default": ""
+    },
+    "alignment": {
+      "type": "string"
+    },
+    "imageWidth": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "rel": {
+      "type": "string"
+    },
+    "linkClass": {
+      "type": "string"
+    },
+    "linkDestination": {
+      "type": "string"
+    },
+    "linkTarget": {
+      "type": "string"
+    }
+  },
+  "selectors": {
+    "border": ".wp-block-wpbbe-svg-inline > .svg-wrapper",
+    "spacing": {
+      "margin": ".wp-block-wpbbe-svg-inline > .svg-wrapper",
+      "padding": ".wp-block-wpbbe-svg-inline > .svg-wrapper"
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

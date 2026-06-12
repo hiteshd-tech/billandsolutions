@@ -1,0 +1,39 @@
+.wpbbe-hidden-row {
+	display: none !important;
+}
+.wpbbe-tabs {
+	visibility: hidden;
+}
+.wpbbe-tabs.wpbbe-ready {
+	visibility: visible;
+}
+
+.wpbbe-setting #user-defined-breakpoint-list {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.wpbbe-setting .user-defined-breakpoint.item {
+	display: flex;
+	align-items: center;
+	gap: 0.2em;
+}
+
+.wpbbe-setting .user-defined-breakpoint.item input[type="number"] {
+	width: 70px;
+}
+
+.wpbbe-setting  .user-defined-breakpoint.item select {
+	width: 60px;
+}
+
+.wpbbe-setting .user-defined-breakpoint.item .remove-breakpoint {
+	width: auto;
+	height: auto;
+	line-height: inherit;
+	font-size: 1.5em;
+	vertical-align: middle;
+	cursor: pointer;"
+}

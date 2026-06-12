@@ -1,0 +1,1 @@
+(()=>{"use strict";(0,window.wpbbe["global-callback"].addGlobalCallback)("animation-on-scroll.animatedElementSelector","blocks__all__animation-on-scroll-sequenced",l=>[...l,".aos-root"])})();

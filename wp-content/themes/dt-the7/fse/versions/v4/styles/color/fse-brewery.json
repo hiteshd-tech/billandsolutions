@@ -1,0 +1,857 @@
+{
+    "version": 3,
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "title": "The7 FSE Brewery",
+    "settings": {
+        "blocks": {
+            "core/button": {
+                "color": {
+                    "gradients": [
+                        {
+                            "gradient": "linear-gradient(180deg,rgb(243,243,237) 0%,rgba(255,255,255,0) 100%)",
+                            "name": "Gradient 1",
+                            "slug": "bbe-gradient-1"
+                        },
+                        {
+                            "gradient": "linear-gradient(180deg,rgba(255,255,255,0) 0%,rgb(243,243,237) 100%)",
+                            "name": "Gradient 2",
+                            "slug": "bbe-gradient-2"
+                        },
+                        {
+                            "gradient": "linear-gradient(180deg,rgb(243,243,237) 52%,rgb(255,255,255) 52%)",
+                            "name": "Gradient 3",
+                            "slug": "bbe-gradient-3"
+                        },
+                        {
+                            "gradient": "linear-gradient(180deg,rgb(254,254,254) 50%,rgb(243,243,237) 50%)",
+                            "name": "Gradient 4",
+                            "slug": "bbe-gradient-4"
+                        },
+                        {
+                            "gradient": "linear-gradient(180deg,rgb(239,250,242) 0%,rgba(255,255,255,0) 100%)",
+                            "name": "Gradient 5",
+                            "slug": "bbe-gradient-5"
+                        },
+                        {
+                            "gradient": "linear-gradient(180deg,rgba(255,255,255,0) 1%,rgb(239,250,242) 97%)",
+                            "name": "Gradient 6",
+                            "slug": "bbe-gradient-6"
+                        },
+                        {
+                            "gradient": "linear-gradient(90deg,rgb(6,45,24) 0%,rgb(21,86,43) 100%)",
+                            "name": "Gradient 7",
+                            "slug": "bbe-gradient-7"
+                        },
+                        {
+                            "gradient": "linear-gradient(270deg,rgb(6,45,24) 0%,rgb(21,86,43) 100%)",
+                            "name": "Gradient 8",
+                            "slug": "bbe-gradient-8"
+                        },
+                        {
+                            "gradient": "linear-gradient(180deg,rgb(6,45,24) 0%,rgba(0,0,0,0.25) 70%)",
+                            "name": "Gradient 9",
+                            "slug": "bbe-gradient-9"
+                        },
+                        {
+                            "gradient": "linear-gradient(0deg,rgb(6,45,24) 0%,rgba(0,0,0,0.25) 70%)",
+                            "name": "Gradient 10",
+                            "slug": "bbe-gradient-10"
+                        }
+                    ],
+                    "palette": [
+                        {
+                            "color": "#252d26",
+                            "name": "Neutral 950",
+                            "slug": "bbe-neutral-950"
+                        },
+                        {
+                            "color": "#414844",
+                            "name": "Neutral 900",
+                            "slug": "bbe-neutral-900"
+                        },
+                        {
+                            "color": "#4c5751",
+                            "name": "Neutral 800",
+                            "slug": "bbe-neutral-800"
+                        },
+                        {
+                            "color": "#5d6a63",
+                            "name": "Neutral 700",
+                            "slug": "bbe-neutral-700"
+                        },
+                        {
+                            "color": "#718477",
+                            "name": "Neutral 600",
+                            "slug": "bbe-neutral-600"
+                        },
+                        {
+                            "color": "#8c9c90",
+                            "name": "Neutral 500",
+                            "slug": "bbe-neutral-500"
+                        },
+                        {
+                            "color": "#a8b3ab",
+                            "name": "Neutral 400",
+                            "slug": "bbe-neutral-400"
+                        },
+                        {
+                            "color": "#c5cec8",
+                            "name": "Neutral 300",
+                            "slug": "bbe-neutral-300"
+                        },
+                        {
+                            "color": "#dbe1dc",
+                            "name": "Neutral 200",
+                            "slug": "bbe-neutral-200"
+                        },
+                        {
+                            "color": "#ecefec",
+                            "name": "Neutral 100",
+                            "slug": "bbe-neutral-100"
+                        },
+                        {
+                            "color": "#f7f8f7",
+                            "name": "Neutral 50",
+                            "slug": "bbe-neutral-050"
+                        },
+                        {
+                            "color": "#ffffff",
+                            "name": "Neutral 000",
+                            "slug": "bbe-neutral-000"
+                        },
+                        {
+                            "color": "#062d18",
+                            "name": "Primary 950",
+                            "slug": "bbe-primary-950"
+                        },
+                        {
+                            "color": "#0d3f21",
+                            "name": "Primary 900",
+                            "slug": "bbe-primary-900"
+                        },
+                        {
+                            "color": "#15562b",
+                            "name": "Primary 800",
+                            "slug": "bbe-primary-800"
+                        },
+                        {
+                            "color": "#1d7239",
+                            "name": "Primary 700",
+                            "slug": "bbe-primary-700"
+                        },
+                        {
+                            "color": "#2E8F4B",
+                            "name": "Primary 600",
+                            "slug": "bbe-primary-600"
+                        },
+                        {
+                            "color": "#3dad5f",
+                            "name": "Primary 500",
+                            "slug": "bbe-primary-500"
+                        },
+                        {
+                            "color": "#5ec57c",
+                            "name": "Primary 400",
+                            "slug": "bbe-primary-400"
+                        },
+                        {
+                            "color": "#8fdba5",
+                            "name": "Primary 300",
+                            "slug": "bbe-primary-300"
+                        },
+                        {
+                            "color": "#bdeac9",
+                            "name": "Primary 200",
+                            "slug": "bbe-primary-200"
+                        },
+                        {
+                            "color": "#dbf5e3",
+                            "name": "Primary 100",
+                            "slug": "bbe-primary-100"
+                        },
+                        {
+                            "color": "#effaf2",
+                            "name": "Primary 50",
+                            "slug": "bbe-primary-050"
+                        },
+                        {
+                            "color": "#042f2e",
+                            "name": "Secondary 950",
+                            "slug": "bbe-secondary-950"
+                        },
+                        {
+                            "color": "#134e4a",
+                            "name": "Secondary 900",
+                            "slug": "bbe-secondary-900"
+                        },
+                        {
+                            "color": "#115e59",
+                            "name": "Secondary 800",
+                            "slug": "bbe-secondary-800"
+                        },
+                        {
+                            "color": "#0f766e",
+                            "name": "Secondary 700",
+                            "slug": "bbe-secondary-700"
+                        },
+                        {
+                            "color": "#0d9488",
+                            "name": "Secondary 600",
+                            "slug": "bbe-secondary-600"
+                        },
+                        {
+                            "color": "#14b8a6",
+                            "name": "Secondary 500",
+                            "slug": "bbe-secondary-500"
+                        },
+                        {
+                            "color": "#2dd4bf",
+                            "name": "Secondary 400",
+                            "slug": "bbe-secondary-400"
+                        },
+                        {
+                            "color": "#5eead4",
+                            "name": "Secondary 300",
+                            "slug": "bbe-secondary-300"
+                        },
+                        {
+                            "color": "#99f6e4",
+                            "name": "Secondary 200",
+                            "slug": "bbe-secondary-200"
+                        },
+                        {
+                            "color": "#ccfbf1",
+                            "name": "Secondary 100",
+                            "slug": "bbe-secondary-100"
+                        },
+                        {
+                            "color": "#f0fdfa",
+                            "name": "Secondary 50",
+                            "slug": "bbe-secondary-050"
+                        }
+                    ]
+                }
+            }
+        },
+        "color": {
+            "defaultPalette": false,
+            "gradients": [
+                {
+                    "gradient": "linear-gradient(180deg,rgb(247,248,247) 50%,rgba(255,255,255,0) 50%)",
+                    "name": "Gradient 1",
+                    "slug": "bbe-gradient-1"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgba(0,0,0,0) 50%,rgb(247,248,247) 50%)",
+                    "name": "Gradient 2",
+                    "slug": "bbe-gradient-2"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgb(247,248,247) 21%,rgba(255,255,255,0) 99%)",
+                    "name": "Gradient 3",
+                    "slug": "bbe-gradient-3"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgba(255,255,255,0) 0%,rgb(247,248,247) 80%)",
+                    "name": "Gradient 4",
+                    "slug": "bbe-gradient-4"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgb(238,241,239) 20%,rgba(255,255,255,0) 100%)",
+                    "name": "Gradient 5",
+                    "slug": "bbe-gradient-5"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgba(255,255,255,0) 0%,rgb(238,241,239) 80%)",
+                    "name": "Gradient 6",
+                    "slug": "bbe-gradient-6"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgb(239,250,242) 20%,rgba(255,255,255,0) 100%)",
+                    "name": "Gradient 7",
+                    "slug": "bbe-gradient-7"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgba(255,255,255,0) 0%,rgb(239,250,242) 80%)",
+                    "name": "Gradient 8",
+                    "slug": "bbe-gradient-8"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgb(255,247,237) 19%,rgba(255,255,255,0) 100%)",
+                    "name": "Gradient 9",
+                    "slug": "bbe-gradient-9"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgba(255,255,255,0) 0%,rgb(255,247,237) 80%)",
+                    "name": "Gradient 10",
+                    "slug": "bbe-gradient-10"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgb(6,45,24) 0%,rgba(255,255,255,0) 70%)",
+                    "name": "Gradient 11",
+                    "slug": "bbe-gradient-11"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgba(255,255,255,0) 30%,rgb(6,45,24) 100%)",
+                    "name": "Gradient 12",
+                    "slug": "bbe-gradient-12"
+                },
+                {
+                    "gradient": "linear-gradient(90deg,rgb(6,45,24) 0%,rgb(21,86,43) 98%)",
+                    "name": "Gradient 13",
+                    "slug": "bbe-gradient-13"
+                },
+                {
+                    "gradient": "linear-gradient(90deg,rgb(21,86,43) 0%,rgb(6,45,24) 99%)",
+                    "name": "Gradient 14",
+                    "slug": "bbe-gradient-14"
+                }
+            ],
+            "palette": [
+                {
+                    "color": "#141f18",
+                    "name": "Neutral 950",
+                    "slug": "bbe-neutral-950"
+                },
+                {
+                    "color": "#26312a",
+                    "name": "Neutral 900",
+                    "slug": "bbe-neutral-900"
+                },
+                {
+                    "color": "#38433b",
+                    "name": "Neutral 800",
+                    "slug": "bbe-neutral-800"
+                },
+                {
+                    "color": "#515d54",
+                    "name": "Neutral 700",
+                    "slug": "bbe-neutral-700"
+                },
+                {
+                    "color": "#657269",
+                    "name": "Neutral 600",
+                    "slug": "bbe-neutral-600"
+                },
+                {
+                    "color": "#87928a",
+                    "name": "Neutral 500",
+                    "slug": "bbe-neutral-500"
+                },
+                {
+                    "color": "#a7afa9",
+                    "name": "Neutral 400",
+                    "slug": "bbe-neutral-400"
+                },
+                {
+                    "color": "#c6cdc8",
+                    "name": "Neutral 300",
+                    "slug": "bbe-neutral-300"
+                },
+                {
+                    "color": "#dbe1dd",
+                    "name": "Neutral 200",
+                    "slug": "bbe-neutral-200"
+                },
+                {
+                    "color": "#eef1ef",
+                    "name": "Neutral 100",
+                    "slug": "bbe-neutral-100"
+                },
+                {
+                    "color": "#f7f8f7",
+                    "name": "Neutral 50",
+                    "slug": "bbe-neutral-050"
+                },
+                {
+                    "color": "#ffffff",
+                    "name": "Neutral 000",
+                    "slug": "bbe-neutral-000"
+                },
+                {
+                    "color": "#062d18",
+                    "name": "Primary 950",
+                    "slug": "bbe-primary-950"
+                },
+                {
+                    "color": "#0d3f21",
+                    "name": "Primary 900",
+                    "slug": "bbe-primary-900"
+                },
+                {
+                    "color": "#15562b",
+                    "name": "Primary 800",
+                    "slug": "bbe-primary-800"
+                },
+                {
+                    "color": "#1d7239",
+                    "name": "Primary 700",
+                    "slug": "bbe-primary-700"
+                },
+                {
+                    "color": "#2E8F4B",
+                    "name": "Primary 600",
+                    "slug": "bbe-primary-600"
+                },
+                {
+                    "color": "#3dad5f",
+                    "name": "Primary 500",
+                    "slug": "bbe-primary-500"
+                },
+                {
+                    "color": "#5ec57c",
+                    "name": "Primary 400",
+                    "slug": "bbe-primary-400"
+                },
+                {
+                    "color": "#8fdba5",
+                    "name": "Primary 300",
+                    "slug": "bbe-primary-300"
+                },
+                {
+                    "color": "#bdeac9",
+                    "name": "Primary 200",
+                    "slug": "bbe-primary-200"
+                },
+                {
+                    "color": "#dbf5e3",
+                    "name": "Primary 100",
+                    "slug": "bbe-primary-100"
+                },
+                {
+                    "color": "#effaf2",
+                    "name": "Primary 50",
+                    "slug": "bbe-primary-050"
+                },
+                {
+                    "color": "#250d06",
+                    "name": "Secondary 950",
+                    "slug": "bbe-secondary-950"
+                },
+                {
+                    "color": "#3c1506",
+                    "name": "Secondary 900",
+                    "slug": "bbe-secondary-900"
+                },
+                {
+                    "color": "#561e08",
+                    "name": "Secondary 800",
+                    "slug": "bbe-secondary-800"
+                },
+                {
+                    "color": "#9d2f08",
+                    "name": "Secondary 700",
+                    "slug": "bbe-secondary-700"
+                },
+                {
+                    "color": "#f15501",
+                    "name": "Secondary 600",
+                    "slug": "bbe-secondary-600"
+                },
+                {
+                    "color": "#ff7105",
+                    "name": "Secondary 500",
+                    "slug": "bbe-secondary-500"
+                },
+                {
+                    "color": "#ff9436",
+                    "name": "Secondary 400",
+                    "slug": "bbe-secondary-400"
+                },
+                {
+                    "color": "#ffbe78",
+                    "name": "Secondary 300",
+                    "slug": "bbe-secondary-300"
+                },
+                {
+                    "color": "#ffd6a7",
+                    "name": "Secondary 200",
+                    "slug": "bbe-secondary-200"
+                },
+                {
+                    "color": "#ffedd4",
+                    "name": "Secondary 100",
+                    "slug": "bbe-secondary-100"
+                },
+                {
+                    "color": "#fff7ed",
+                    "name": "Secondary 50",
+                    "slug": "bbe-secondary-050"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "blocks": {
+            "core/button": {
+                "color": {
+                    "text": "var(--wp--preset--color--bbe-neutral-000)"
+                },
+                "elements": {
+                    "link": {
+                        "color": {
+                            "text": "var(--wp--preset--bbe-neutral-000)"
+                        }
+                    }
+                },
+                "variations": {
+                    "outline": {
+                        "border": {
+                            "bottom": {
+                                "color": "var(--wp--preset--color--bbe-primary-600)"
+                            },
+                            "color": "var(--wp--preset--color--bbe-primary-500)",
+                            "left": {
+                                "color": "var(--wp--preset--color--bbe-primary-600)"
+                            },
+                            "right": {
+                                "color": "var(--wp--preset--color--bbe-primary-600)"
+                            },
+                            "top": {
+                                "color": "var(--wp--preset--color--bbe-primary-600)"
+                            }
+                        },
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-primary-600)"
+                        }
+                    },
+                    "style-6": {
+                        "border": {
+                            "bottom": {
+                                "color": "var(--wp--preset--color--bbe-primary-400)"
+                            },
+                            "color": null
+                        },
+                        "color": {
+                            "background": "#ffffff00",
+                            "text": "var(--wp--preset--color--bbe-neutral-950)"
+                        },
+                        "elements": {
+                            "link": {
+                                "color": {
+                                    "text": "var(--wp--preset--color--bbe-neutral-950)"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "core/comment-author-name": {
+                "color": {
+                    "text": "var(--wp--preset--color--bbe-neutral-900)"
+                },
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": "var(--wp--preset--color--bbe-primary-500)"
+                            }
+                        },
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-neutral-900)"
+                        }
+                    }
+                }
+            },
+            "core/comment-date": {
+                "color": {
+                    "text": "var(--wp--preset--color--bbe-neutral-400)"
+                },
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": "var(--wp--preset--color--bbe-primary-600)"
+                            }
+                        },
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-neutral-400)"
+                        }
+                    }
+                }
+            },
+            "core/comment-edit-link": {
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": "var(--wp--preset--color--bbe-primary-600)"
+                            }
+                        },
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-neutral-400)"
+                        }
+                    }
+                }
+            },
+            "core/comment-reply-link": {
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": "var(--wp--preset--color--bbe-primary-600)"
+                            }
+                        },
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-neutral-400)"
+                        }
+                    }
+                }
+            },
+            "core/comments-pagination": {
+                "color": {
+                    "text": "var(--wp--preset--color--bbe-primary-600)"
+                },
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": "var(--wp--preset--color--bbe-primary-500)"
+                            }
+                        },
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-primary-600)"
+                        }
+                    }
+                }
+            },
+            "core/cover": {
+                "color": {
+                    "text": "var(--wp--preset--color--bbe-neutral-000)"
+                },
+                "elements": {
+                    "heading": {
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-neutral-000)"
+                        }
+                    },
+                    "link": {
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-neutral-000)"
+                        }
+                    }
+                }
+            },
+            "core/list": {
+                "color": {
+                    "text": "var(--wp--preset--color--bbe-neutral-950)"
+                },
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": "var(--wp--preset--color--bbe-primary-500)"
+                            }
+                        },
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-primary-600)"
+                        }
+                    }
+                }
+            },
+            "core/navigation-link": {
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "core/post-author-name": {
+                "color": {
+                    "text": ""
+                },
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": ""
+                            }
+                        },
+                        "color": {
+                            "text": ""
+                        }
+                    }
+                }
+            },
+            "core/post-date": {
+                "color": {
+                    "text": ""
+                },
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": ""
+                            }
+                        },
+                        "color": {
+                            "text": ""
+                        }
+                    }
+                }
+            },
+            "core/post-terms": {
+                "color": {
+                    "text": ""
+                },
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": ""
+                            }
+                        },
+                        "color": {
+                            "text": ""
+                        }
+                    }
+                }
+            },
+            "core/pullquote": {
+                "border": {
+                    "bottom": {
+                        "color": "var(--wp--preset--color--bbe-primary-300)"
+                    },
+                    "color": null,
+                    "top": {
+                        "color": "var(--wp--preset--color--bbe-primary-300)"
+                    }
+                },
+                "color": {
+                    "text": "var(--wp--preset--color--bbe-neutral-900)"
+                },
+                "elements": {
+                    "link": {
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-neutral-900)"
+                        }
+                    }
+                }
+            },
+            "core/query-no-results": {
+                "color": {
+                    "text": "var(--wp--preset--color--bbe-neutral-500)"
+                },
+                "elements": {
+                    "link": {
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-neutral-500)"
+                        }
+                    }
+                }
+            },
+            "core/query-pagination": {
+                "color": {
+                    "text": "var(--wp--preset--color--bbe-primary-600)"
+                },
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": "var(--wp--preset--color--bbe-primary-500)"
+                            }
+                        },
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-primary-600)"
+                        }
+                    }
+                }
+            },
+            "core/quote": {
+                "border": {
+                    "color": null,
+                    "left": {
+                        "color": "var(--wp--preset--color--bbe-primary-300)"
+                    }
+                },
+                "color": {
+                    "text": "var(--wp--preset--color--bbe-neutral-950)"
+                },
+                "elements": {
+                    "heading": {
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-neutral-950)"
+                        }
+                    },
+                    "link": {
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-neutral-950)"
+                        }
+                    }
+                }
+            },
+            "core/read-more": {
+                "border": {
+                    "bottom": {
+                        "color": "var(--wp--preset--color--bbe-primary-400)"
+                    },
+                    "color": null
+                },
+                "color": {
+                    "text": "var(--wp--preset--color--bbe-neutral-950)"
+                },
+                "elements": {
+                    "link": {
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-neutral-950)"
+                        }
+                    }
+                }
+            },
+            "core/search": {
+                "color": {
+                    "background": "var(--wp--preset--color--bbe-neutral-000)",
+                    "text": "var(--wp--preset--color--bbe-neutral-900)"
+                },
+                "elements": {
+                    "link": {
+                        "color": {
+                            "text": "var(--wp--preset--color--bbe-neutral-900)"
+                        }
+                    }
+                }
+            }
+        },
+        "color": {
+            "background": "var(--wp--preset--color--white)",
+            "text": "var(--wp--preset--color--bbe-neutral-800)"
+        },
+        "elements": {
+            "button": {
+                ":hover": {
+                    "color": {
+                        "background": "var(--wp--preset--color--bbe-primary-600)"
+                    }
+                },
+                "color": {
+                    "background": "var(--wp--preset--color--bbe-primary-500)",
+                    "text": "var(--wp--preset--color--bbe-neutral-000)"
+                }
+            },
+            "caption": {
+                "color": {
+                    "text": "var(--wp--preset--color--bbe-neutral-500)"
+                }
+            },
+            "heading": {
+                "color": {
+                    "text": "var(--wp--preset--color--bbe-neutral-950)"
+                }
+            },
+            "link": {
+                ":hover": {
+                    "color": {
+                        "text": "var(--wp--preset--color--bbe-primary-400)"
+                    }
+                },
+                "color": {
+                    "text": "var(--wp--preset--color--bbe-primary-600)"
+                }
+            }
+        }
+    }
+}

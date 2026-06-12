@@ -1,0 +1,54 @@
+.paginator.filter-decorations:not(.class-1) {
+  .dots {
+    color: var(--filter-title-color-normal);
+  }
+
+  a.button-load-more {
+    border: inherit;
+    transition: none;
+    color: var(--filter-title-color-normal);
+    padding: 0 0 5px 0;
+    &:hover {
+      color: var(--filter-title-color-hover);
+
+      svg {
+        fill: var(--filter-title-color-hover);
+        color: var(--filter-title-color-hover);
+      }
+    }
+
+    svg {
+      fill: var(--filter-title-color-normal);
+      color: var(--filter-title-color-normal);
+      width: var(--the7-base-font-size);
+      height: var(--the7-base-font-size);
+    }
+
+    span,
+    i,
+    svg {
+      color: inherit;
+      transition: all .3s ease;
+      margin-right: 5px;
+    }
+
+    .button-caption:before {
+      content: "";
+      margin: 0;
+    }
+  }
+
+  &:not(.filter-pointer-framed) a.button-load-more.highlighted:not(:hover) {
+    &:before,
+    &:after {
+      background: var(--filter-pointer-bg-color-normal);
+    }
+  }
+
+  &.filter-pointer-framed a.button-load-more.highlighted:not(:hover) {
+    &:before,
+    &:after {
+      border-color: var(--filter-pointer-bg-color-normal);
+    }
+  }
+}

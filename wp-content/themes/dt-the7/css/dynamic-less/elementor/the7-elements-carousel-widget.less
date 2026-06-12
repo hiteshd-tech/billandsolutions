@@ -1,0 +1,52 @@
+@import "inline-mixin";
+@import "icons";
+
+// DYNAMIC_IMPORT_TOP
+
+article {
+  .@{unique-shortcode-class-name}.description-on-hover & {
+    overflow: hidden;
+  }
+
+  .@{unique-shortcode-class-name} & {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  }
+
+  .@{unique-shortcode-class-name} & .post-entry-content {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  }
+
+  .@{unique-shortcode-class-name}:not(.mode-masonry) & {
+    &:first-of-type,
+    &.visible.first {
+      margin-top: 0;
+    }
+  }
+}
+
+.@{unique-shortcode-class-name} {
+  margin-left: auto;
+  margin-right: auto;
+
+  &.hover-scale article.post:after {
+    background-color: var(--content-bg-color);
+    box-shadow: none;
+  }
+
+  &.content-bg-on.description-under-image article .post-entry-content {
+    background-color: var(--content-bg-color);
+    box-shadow: none;
+  }
+}
+
+// Arrows.
+.@{unique-shortcode-class-name} {
+  .owl-nav {
+    div, div:hover {
+      color: var(--the7-accent-color);
+    }
+  }
+
+}
+
+// DYNAMIC_IMPORT_BOTTOM

@@ -1,0 +1,1 @@
+<?php return array('dependencies' => array('react', 'react-jsx-runtime', 'wp-block-editor', 'wp-blocks', 'wp-components', 'wp-compose', 'wp-core-data', 'wp-data', 'wp-element', 'wp-i18n', 'wp-primitives', 'wpbbe-editor-css-store', 'wpbbe-multipurpose-scroller'), 'version' => '3e17f73caa65b5d4e1f0');

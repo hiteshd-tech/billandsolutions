@@ -1,0 +1,819 @@
+{
+    "version": 3,
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "title": "The7 FSE Brewery",
+    "settings": {
+        "blocks": {
+            "core/button": {
+                "typography": {
+                    "fontFamilies": [
+                        {
+                            "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+                            "name": "System Font",
+                            "slug": "system-font"
+                        },
+                        {
+                            "fontFace": [
+                                {
+                                    "fontFamily": "Inter",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "300",
+                                    "src": [
+                                        "file:./assets/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuOKfMZ1rib2Bg-4.woff2"
+                                    ]
+                                },
+                                {
+                                    "fontFamily": "Inter",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "400",
+                                    "src": [
+                                        "file:./assets/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZ1rib2Bg-4.woff2"
+                                    ]
+                                },
+                                {
+                                    "fontFamily": "Inter",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "500",
+                                    "src": [
+                                        "file:./assets/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZ1rib2Bg-4.woff2"
+                                    ]
+                                },
+                                {
+                                    "fontFamily": "Inter",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "600",
+                                    "src": [
+                                        "file:./assets/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZ1rib2Bg-4.woff2"
+                                    ]
+                                },
+                                {
+                                    "fontFamily": "Inter",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "700",
+                                    "src": [
+                                        "file:./assets/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZ1rib2Bg-4.woff2"
+                                    ]
+                                },
+                                {
+                                    "fontFamily": "Inter",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "800",
+                                    "src": [
+                                        "file:./assets/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZ1rib2Bg-4.woff2"
+                                    ]
+                                },
+                                {
+                                    "fontFamily": "Inter",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "900",
+                                    "src": [
+                                        "file:./assets/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuBWYMZ1rib2Bg-4.woff2"
+                                    ]
+                                }
+                            ],
+                            "fontFamily": "Inter, sans-serif",
+                            "name": "Inter",
+                            "slug": "inter"
+                        },
+                        {
+                            "fontFace": [
+                                {
+                                    "fontFamily": "Outfit",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "100",
+                                    "src": "file:./load__local__font/QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC0C4S-EiAou6Y.woff2"
+                                },
+                                {
+                                    "fontFamily": "Outfit",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "200",
+                                    "src": "file:./load__local__font/QGYyz_MVcBeNP4NjuGObqx1XmO1I4bC1C4S-EiAou6Y.woff2"
+                                },
+                                {
+                                    "fontFamily": "Outfit",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "300",
+                                    "src": "file:./load__local__font/QGYyz_MVcBeNP4NjuGObqx1XmO1I4W61C4S-EiAou6Y.woff2"
+                                },
+                                {
+                                    "fontFamily": "Outfit",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "400",
+                                    "src": "file:./load__local__font/QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC1C4S-EiAou6Y.woff2"
+                                },
+                                {
+                                    "fontFamily": "Outfit",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "500",
+                                    "src": "file:./load__local__font/QGYyz_MVcBeNP4NjuGObqx1XmO1I4QK1C4S-EiAou6Y.woff2"
+                                },
+                                {
+                                    "fontFamily": "Outfit",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "600",
+                                    "src": "file:./load__local__font/QGYyz_MVcBeNP4NjuGObqx1XmO1I4e6yC4S-EiAou6Y.woff2"
+                                },
+                                {
+                                    "fontFamily": "Outfit",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "700",
+                                    "src": "file:./load__local__font/QGYyz_MVcBeNP4NjuGObqx1XmO1I4deyC4S-EiAou6Y.woff2"
+                                },
+                                {
+                                    "fontFamily": "Outfit",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "800",
+                                    "src": "file:./load__local__font/QGYyz_MVcBeNP4NjuGObqx1XmO1I4bCyC4S-EiAou6Y.woff2"
+                                },
+                                {
+                                    "fontFamily": "Outfit",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "900",
+                                    "src": "file:./load__local__font/QGYyz_MVcBeNP4NjuGObqx1XmO1I4ZmyC4S-EiAou6Y.woff2"
+                                }
+                            ],
+                            "fontFamily": "Outfit, sans-serif",
+                            "name": "Outfit",
+                            "slug": "outfit"
+                        }
+                    ],
+                    "fontSizes": [
+                        {
+                            "fluid": false,
+                            "name": "XXS",
+                            "size": "13px",
+                            "slug": "bbe-2-x-small"
+                        },
+                        {
+                            "fluid": false,
+                            "name": "XS",
+                            "size": "14px",
+                            "slug": "bbe-x-small"
+                        },
+                        {
+                            "fluid": false,
+                            "name": "S",
+                            "size": "15px",
+                            "slug": "bbe-small"
+                        },
+                        {
+                            "fluid": false,
+                            "name": "M",
+                            "size": "16px",
+                            "slug": "bbe-medium"
+                        },
+                        {
+                            "fluid": false,
+                            "name": "L",
+                            "size": "17px",
+                            "slug": "bbe-large"
+                        },
+                        {
+                            "fluid": false,
+                            "name": "XL",
+                            "size": "18px",
+                            "slug": "bbe-x-large"
+                        },
+                        {
+                            "fluid": false,
+                            "name": "XXL",
+                            "size": "19px",
+                            "slug": "bbe-2-x-large"
+                        },
+                        {
+                            "fluid": false,
+                            "name": "Title 6",
+                            "size": "20px",
+                            "slug": "bbe-title-6"
+                        },
+                        {
+                            "fluid": false,
+                            "name": "Title 5",
+                            "size": "24px",
+                            "slug": "bbe-title-5"
+                        },
+                        {
+                            "fluid": false,
+                            "name": "Title 4",
+                            "size": "28px",
+                            "slug": "bbe-title-4"
+                        },
+                        {
+                            "fluid": {
+                                "max": "36px",
+                                "min": "32px"
+                            },
+                            "name": "Title 3",
+                            "size": "36px",
+                            "slug": "bbe-title-3"
+                        },
+                        {
+                            "fluid": {
+                                "max": "48px",
+                                "min": "36px"
+                            },
+                            "name": "Title 2",
+                            "size": "48px",
+                            "slug": "bbe-title-2"
+                        },
+                        {
+                            "fluid": {
+                                "max": "60px",
+                                "min": "36px"
+                            },
+                            "name": "Title 1",
+                            "size": "60px",
+                            "slug": "bbe-title-1"
+                        },
+                        {
+                            "fluid": {
+                                "max": "72px",
+                                "min": "44px"
+                            },
+                            "name": "Display 3",
+                            "size": "72px",
+                            "slug": "bbe-display-3"
+                        },
+                        {
+                            "fluid": {
+                                "max": "88px",
+                                "min": "56px"
+                            },
+                            "name": "Display 2",
+                            "size": "88px",
+                            "slug": "bbe-display-2"
+                        },
+                        {
+                            "fluid": {
+                                "max": "128px",
+                                "min": "72px"
+                            },
+                            "name": "Display 1",
+                            "size": "128px",
+                            "slug": "bbe-display-1"
+                        }
+                    ]
+                }
+            }
+        },
+        "typography": {
+            "defaultFontSizes": false,
+            "fluid": false,
+            "fontFamilies": [
+                {
+                    "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+                    "name": "System Font",
+                    "slug": "system-font"
+                },
+                {
+                    "fontFace": [
+                        {
+                            "fontFamily": "Inter",
+                            "fontStyle": "normal",
+                            "fontWeight": "300",
+                            "src": [
+                                "file:./assets/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuOKfMZ1rib2Bg-4.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Inter",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "src": [
+                                "file:./assets/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZ1rib2Bg-4.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Inter",
+                            "fontStyle": "normal",
+                            "fontWeight": "500",
+                            "src": [
+                                "file:./assets/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZ1rib2Bg-4.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Inter",
+                            "fontStyle": "normal",
+                            "fontWeight": "600",
+                            "src": [
+                                "file:./assets/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZ1rib2Bg-4.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Inter",
+                            "fontStyle": "normal",
+                            "fontWeight": "700",
+                            "src": [
+                                "file:./assets/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZ1rib2Bg-4.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Inter",
+                            "fontStyle": "normal",
+                            "fontWeight": "800",
+                            "src": [
+                                "file:./assets/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZ1rib2Bg-4.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Inter",
+                            "fontStyle": "normal",
+                            "fontWeight": "900",
+                            "src": [
+                                "file:./assets/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuBWYMZ1rib2Bg-4.woff2"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "Inter, sans-serif",
+                    "name": "Inter",
+                    "slug": "inter"
+                },
+                {
+                    "fontFace": [
+                        {
+                            "fontFamily": "Outfit",
+                            "fontStyle": "normal",
+                            "fontWeight": "100",
+                            "src": "file:./load__local__font/QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC0C4S-EiAou6Y.woff2"
+                        },
+                        {
+                            "fontFamily": "Outfit",
+                            "fontStyle": "normal",
+                            "fontWeight": "200",
+                            "src": "file:./load__local__font/QGYyz_MVcBeNP4NjuGObqx1XmO1I4bC1C4S-EiAou6Y.woff2"
+                        },
+                        {
+                            "fontFamily": "Outfit",
+                            "fontStyle": "normal",
+                            "fontWeight": "300",
+                            "src": "file:./load__local__font/QGYyz_MVcBeNP4NjuGObqx1XmO1I4W61C4S-EiAou6Y.woff2"
+                        },
+                        {
+                            "fontFamily": "Outfit",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "src": "file:./load__local__font/QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC1C4S-EiAou6Y.woff2"
+                        },
+                        {
+                            "fontFamily": "Outfit",
+                            "fontStyle": "normal",
+                            "fontWeight": "500",
+                            "src": "file:./load__local__font/QGYyz_MVcBeNP4NjuGObqx1XmO1I4QK1C4S-EiAou6Y.woff2"
+                        },
+                        {
+                            "fontFamily": "Outfit",
+                            "fontStyle": "normal",
+                            "fontWeight": "600",
+                            "src": "file:./load__local__font/QGYyz_MVcBeNP4NjuGObqx1XmO1I4e6yC4S-EiAou6Y.woff2"
+                        },
+                        {
+                            "fontFamily": "Outfit",
+                            "fontStyle": "normal",
+                            "fontWeight": "700",
+                            "src": "file:./load__local__font/QGYyz_MVcBeNP4NjuGObqx1XmO1I4deyC4S-EiAou6Y.woff2"
+                        },
+                        {
+                            "fontFamily": "Outfit",
+                            "fontStyle": "normal",
+                            "fontWeight": "800",
+                            "src": "file:./load__local__font/QGYyz_MVcBeNP4NjuGObqx1XmO1I4bCyC4S-EiAou6Y.woff2"
+                        },
+                        {
+                            "fontFamily": "Outfit",
+                            "fontStyle": "normal",
+                            "fontWeight": "900",
+                            "src": "file:./load__local__font/QGYyz_MVcBeNP4NjuGObqx1XmO1I4ZmyC4S-EiAou6Y.woff2"
+                        }
+                    ],
+                    "fontFamily": "Outfit, sans-serif",
+                    "name": "Outfit",
+                    "slug": "outfit"
+                }
+            ],
+            "fontSizes": [
+                {
+                    "fluid": false,
+                    "name": "XXS",
+                    "size": "14px",
+                    "slug": "bbe-2-x-small"
+                },
+                {
+                    "fluid": false,
+                    "name": "XS",
+                    "size": "15px",
+                    "slug": "bbe-x-small"
+                },
+                {
+                    "fluid": false,
+                    "name": "S",
+                    "size": "16px",
+                    "slug": "bbe-small"
+                },
+                {
+                    "fluid": false,
+                    "name": "M",
+                    "size": "17px",
+                    "slug": "bbe-medium"
+                },
+                {
+                    "fluid": false,
+                    "name": "L",
+                    "size": "18px",
+                    "slug": "bbe-large"
+                },
+                {
+                    "fluid": false,
+                    "name": "XL",
+                    "size": "19px",
+                    "slug": "bbe-x-large"
+                },
+                {
+                    "fluid": {
+                        "max": "22px",
+                        "min": "19px"
+                    },
+                    "name": "XXL",
+                    "size": "22px",
+                    "slug": "bbe-2-x-large"
+                },
+                {
+                    "fluid": false,
+                    "name": "Title 6",
+                    "size": "21px",
+                    "slug": "bbe-title-6"
+                },
+                {
+                    "fluid": false,
+                    "name": "Title 5",
+                    "size": "24px",
+                    "slug": "bbe-title-5"
+                },
+                {
+                    "fluid": false,
+                    "name": "Title 4",
+                    "size": "28px",
+                    "slug": "bbe-title-4"
+                },
+                {
+                    "fluid": {
+                        "max": "36px",
+                        "min": "32px"
+                    },
+                    "name": "Title 3",
+                    "size": "36px",
+                    "slug": "bbe-title-3"
+                },
+                {
+                    "fluid": {
+                        "max": "50px",
+                        "min": "36px"
+                    },
+                    "name": "Title 2",
+                    "size": "50px",
+                    "slug": "bbe-title-2"
+                },
+                {
+                    "fluid": {
+                        "max": "68px",
+                        "min": "36px"
+                    },
+                    "name": "Title 1",
+                    "size": "68px",
+                    "slug": "bbe-title-1"
+                },
+                {
+                    "fluid": {
+                        "max": "88px",
+                        "min": "52px"
+                    },
+                    "name": "Display 3",
+                    "size": "88px",
+                    "slug": "bbe-display-3"
+                },
+                {
+                    "fluid": {
+                        "max": "112px",
+                        "min": "56px"
+                    },
+                    "name": "Display 2",
+                    "size": "112px",
+                    "slug": "bbe-display-2"
+                },
+                {
+                    "fluid": {
+                        "max": "160px",
+                        "min": "56px"
+                    },
+                    "name": "Display 1",
+                    "size": "160px",
+                    "slug": "bbe-display-1"
+                }
+            ],
+            "writingMode": true
+        }
+    },
+    "styles": {
+        "blocks": {
+            "core/button": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-medium)",
+                    "fontStyle": "normal",
+                    "fontWeight": "400"
+                },
+                "variations": {
+                    "style-1": {
+                        "typography": {
+                            "fontSize": "var(--wp--preset--font-size--bbe-2-x-small)"
+                        }
+                    },
+                    "style-2": {
+                        "typography": {
+                            "fontSize": "var(--wp--preset--font-size--bbe-x-small)"
+                        }
+                    },
+                    "style-3": {
+                        "typography": {
+                            "fontSize": "var(--wp--preset--font-size--bbe-medium)"
+                        }
+                    },
+                    "style-4": {
+                        "typography": {
+                            "fontSize": "var(--wp--preset--font-size--bbe-x-large)"
+                        }
+                    },
+                    "style-5": {
+                        "typography": {
+                            "fontSize": "var(--wp--preset--font-size--bbe-2-x-large)"
+                        }
+                    },
+                    "style-6": {
+                        "typography": {
+                            "fontStyle": "normal",
+                            "fontWeight": "400"
+                        }
+                    }
+                }
+            },
+            "core/buttons": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--outfit)",
+                    "fontStyle": "normal",
+                    "fontWeight": "400",
+                    "letterSpacing": "0.015em",
+                    "lineHeight": "1.1"
+                }
+            },
+            "core/comment-author-name": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-small)",
+                    "fontStyle": "normal",
+                    "fontWeight": "500",
+                    "lineHeight": "1.2"
+                }
+            },
+            "core/comment-content": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-medium)",
+                    "lineHeight": 1.6
+                }
+            },
+            "core/comment-date": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-x-small)",
+                    "lineHeight": "1.2"
+                }
+            },
+            "core/comment-edit-link": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-x-small)",
+                    "lineHeight": "1.2"
+                }
+            },
+            "core/comment-reply-link": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-x-small)",
+                    "lineHeight": "1.2"
+                }
+            },
+            "core/comment-template": {
+                "typography": {
+                    "fontSize": ""
+                }
+            },
+            "core/comments-pagination": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-small)",
+                    "fontStyle": "normal",
+                    "fontWeight": "400"
+                }
+            },
+            "core/comments-pagination-next": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-medium)",
+                    "fontStyle": "normal",
+                    "fontWeight": "400",
+                    "lineHeight": "1.3"
+                }
+            },
+            "core/comments-pagination-numbers": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-small)",
+                    "fontStyle": "normal",
+                    "fontWeight": "400"
+                }
+            },
+            "core/comments-pagination-previous": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-medium)",
+                    "fontStyle": "normal",
+                    "fontWeight": "400",
+                    "lineHeight": "1.3"
+                }
+            },
+            "core/list": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-x-large)",
+                    "fontStyle": "normal",
+                    "fontWeight": "400"
+                }
+            },
+            "core/navigation": {
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "typography": {
+                                "textDecoration": "none"
+                            }
+                        },
+                        "typography": {
+                            "textDecoration": "none"
+                        }
+                    }
+                },
+                "typography": {
+                    "lineHeight": ""
+                }
+            },
+            "core/navigation-link": {
+                "typography": {
+                    "lineHeight": ""
+                }
+            },
+            "core/paragraph": {
+                "typography": {
+                    "lineHeight": "1.65"
+                }
+            },
+            "core/post-author-name": {
+                "typography": {
+                    "lineHeight": ""
+                }
+            },
+            "core/post-comments-form": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-medium)"
+                }
+            },
+            "core/post-date": {
+                "typography": {
+                    "fontSize": "",
+                    "fontStyle": "",
+                    "fontWeight": "",
+                    "lineHeight": ""
+                }
+            },
+            "core/post-template": {
+                "typography": {
+                    "lineHeight": "1.3"
+                }
+            },
+            "core/post-terms": {
+                "typography": {
+                    "fontSize": "",
+                    "fontStyle": "normal",
+                    "fontWeight": "400",
+                    "lineHeight": ""
+                }
+            },
+            "core/post-title": {
+                "typography": {
+                    "fontSize": "",
+                    "lineHeight": "1.2"
+                }
+            },
+            "core/pullquote": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-2-x-large)",
+                    "fontStyle": "normal",
+                    "fontWeight": "400"
+                }
+            },
+            "core/query-no-results": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-x-large)"
+                }
+            },
+            "core/query-pagination": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-medium)",
+                    "fontStyle": "normal",
+                    "fontWeight": "400"
+                }
+            },
+            "core/quote": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-2-x-large)",
+                    "fontStyle": "normal",
+                    "fontWeight": "400"
+                }
+            },
+            "core/read-more": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-small)",
+                    "fontStyle": "normal",
+                    "fontWeight": "400",
+                    "lineHeight": "1.1"
+                }
+            },
+            "core/search": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-large)",
+                    "lineHeight": "1.3"
+                }
+            }
+        },
+        "elements": {
+            "h1": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-title-1)",
+                    "fontStyle": "normal",
+                    "fontWeight": "700",
+                    "lineHeight": "1.1",
+                    "textTransform": "uppercase"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-title-2)",
+                    "fontStyle": "normal",
+                    "fontWeight": "700",
+                    "lineHeight": "1.1",
+                    "textTransform": "uppercase"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-title-3)",
+                    "fontStyle": "normal",
+                    "fontWeight": "500",
+                    "lineHeight": "1.2"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-title-4)",
+                    "fontStyle": "normal",
+                    "fontWeight": "500",
+                    "lineHeight": "1.2"
+                }
+            },
+            "h5": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-title-5)",
+                    "fontStyle": "normal",
+                    "fontWeight": "500",
+                    "lineHeight": "1.2"
+                }
+            },
+            "h6": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--bbe-title-6)",
+                    "fontStyle": "normal",
+                    "fontWeight": "500",
+                    "lineHeight": "1.2"
+                }
+            },
+            "heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--outfit)",
+                    "fontStyle": "normal",
+                    "fontWeight": "500",
+                    "lineHeight": "1.1"
+                }
+            },
+            "link": {
+                "typography": {
+                    "lineHeight": "",
+                    "textDecoration": "none"
+                }
+            }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--outfit)",
+            "fontSize": "var(--wp--preset--font-size--bbe-large)",
+            "fontStyle": "normal",
+            "fontWeight": "400",
+            "lineHeight": "1.5"
+        }
+    }
+}

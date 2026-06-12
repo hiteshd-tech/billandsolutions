@@ -1,0 +1,486 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 3,
+    "title": "The7 FSE Bakery Demo",
+    "settings": {
+        "blocks": {
+            "core/image": {
+                "color": [
+                    true
+                ]
+            }
+        },
+        "color": {
+            "defaultPalette": false,
+            "gradients": [
+                {
+                    "gradient": "linear-gradient(180deg,rgb(245,245,245) 0%,rgba(255,255,255,0) 100%)",
+                    "name": "Gradient 1",
+                    "slug": "gradient-1"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgba(255,255,255,0) 0%,rgb(245,245,245) 100%)",
+                    "name": "Gradient 2",
+                    "slug": "gradient-2"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgb(245,245,245) 48%,rgb(255,255,255) 48%)",
+                    "name": "Gradient 3",
+                    "slug": "gradient-3"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgb(254,254,254) 50%,rgb(245,245,245) 50%)",
+                    "name": "Gradient 4",
+                    "slug": "gradient-4"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgb(255,242,235) 0%,rgba(255,255,255,0) 100%)",
+                    "name": "Gradient 5",
+                    "slug": "gradient-5"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgba(255,255,255,0) 0%,rgb(255,242,235) 100%)",
+                    "name": "Gradient 6",
+                    "slug": "gradient-6"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgb(24,8,0) 1%,rgb(91,52,32) 100%)",
+                    "name": "Gradient 7",
+                    "slug": "gradient-7"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgb(91,52,32) 0%,rgb(24,8,0) 100%)",
+                    "name": "Gradient 8",
+                    "slug": "gradient-8"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgb(24,8,0) 0%,rgba(0,0,0,0.25) 80%)",
+                    "name": "Gradient 9",
+                    "slug": "gradient-9"
+                },
+                {
+                    "gradient": "linear-gradient(180deg,rgba(0,0,0,0.25) 20%,rgb(24,8,0) 100%)",
+                    "name": "Gradient 10",
+                    "slug": "gradient-10"
+                }
+            ],
+            "palette": [
+                {
+                    "color": "#ffffff",
+                    "name": "Background 1",
+                    "slug": "background-1"
+                },
+                {
+                    "color": "#f5f5f5",
+                    "name": "Background 2",
+                    "slug": "background-2"
+                },
+                {
+                    "color": "#120d061f",
+                    "name": "Borders",
+                    "slug": "separators"
+                },
+                {
+                    "color": "#110c06",
+                    "name": "Headings",
+                    "slug": "headings"
+                },
+                {
+                    "color": "#120d06bd",
+                    "name": "Content 1",
+                    "slug": "content-1"
+                },
+                {
+                    "color": "#120d0670",
+                    "name": "Content 2",
+                    "slug": "content-2"
+                },
+                {
+                    "color": "#180800",
+                    "name": "Contrast Background 1",
+                    "slug": "contrast-background"
+                },
+                {
+                    "color": "#2a1811",
+                    "name": "Contrast Background 2",
+                    "slug": "contrast-background-2"
+                },
+                {
+                    "color": "#543d38d9",
+                    "name": "Contrast Borders",
+                    "slug": "contrast-separators"
+                },
+                {
+                    "color": "#fffefe",
+                    "name": "Contrast Headings",
+                    "slug": "contrast-headings"
+                },
+                {
+                    "color": "#ffebe3c4",
+                    "name": "Contrast Content 1",
+                    "slug": "contrast-content"
+                },
+                {
+                    "color": "#ffebe370",
+                    "name": "Contrast Content 2",
+                    "slug": "contrast-content-2"
+                },
+                {
+                    "color": "#f55600",
+                    "name": "Accent 1 Dark",
+                    "slug": "accent-1-dark"
+                },
+                {
+                    "color": "#ff6e1f",
+                    "name": "Accent 1",
+                    "slug": "accent-1"
+                },
+                {
+                    "color": "#ff833f",
+                    "name": "Accent 1 Light",
+                    "slug": "accent-1-light"
+                },
+                {
+                    "color": "#fff2eb",
+                    "name": "Accent 1 Background",
+                    "slug": "accent-1-transparent-1"
+                },
+                {
+                    "color": "#ff6e1f26",
+                    "name": "Accent 1 Transparent",
+                    "slug": "accent-1-transparent-2"
+                },
+                {
+                    "color": "#a9684b",
+                    "name": "Accent 2 Dark",
+                    "slug": "accent-2-dark"
+                },
+                {
+                    "color": "#b7795e",
+                    "name": "Accent 2",
+                    "slug": "accent-2"
+                },
+                {
+                    "color": "#c18c75",
+                    "name": "Accent 2 Light",
+                    "slug": "accent-2-light"
+                },
+                {
+                    "color": "#f9f3f1",
+                    "name": "Accent 2 Background",
+                    "slug": "accent-2-transparent-1"
+                },
+                {
+                    "color": "#bd806226",
+                    "name": "Accent 2 Transparent",
+                    "slug": "accent-2-transparent-2"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "blocks": {
+            "core/button": {
+                "color": {
+                    "text": "var(--wp--preset--color--contrast-headings)"
+                },
+                "elements": {
+                    "link": {
+                        "color": {
+                            "text": "var(--wp--preset--contrast-headings)"
+                        }
+                    }
+                },
+                "variations": {
+                    "outline": {
+                        "border": {
+                            "color": "var(--wp--preset--color--accent-1)"
+                        },
+                        "color": {
+                            "text": "var(--wp--preset--color--accent-1)"
+                        }
+                    },
+                    "style-6": {
+                        "border": {
+                            "bottom": {
+                                "color": "var(--wp--preset--color--accent-1)"
+                            },
+                            "color": null
+                        },
+                        "color": {
+                            "background": "#ffffff00",
+                            "text": "var(--wp--preset--color--accent-1)"
+                        },
+                        "elements": {
+                            "link": {
+                                "color": {
+                                    "text": "var(--wp--preset--color--accent-1)"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "core/comment-author-name": {
+                "color": {
+                    "text": "var(--wp--preset--color--headings)"
+                },
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": "var(--wp--preset--color--accent-1)"
+                            }
+                        },
+                        "color": {
+                            "text": "var(--wp--preset--color--headings)"
+                        }
+                    }
+                }
+            },
+            "core/comment-date": {
+                "color": {
+                    "text": "var(--wp--preset--color--content-2)"
+                },
+                "elements": {
+                    "link": {
+                        "color": {
+                            "text": "var(--wp--preset--color--content-2)"
+                        }
+                    }
+                }
+            },
+            "core/comment-edit-link": {
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": "var(--wp--preset--color--accent-1)"
+                            }
+                        },
+                        "color": {
+                            "text": "var(--wp--preset--color--content-2)"
+                        }
+                    }
+                }
+            },
+            "core/comment-reply-link": {
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": "var(--wp--preset--color--accent-1)"
+                            }
+                        },
+                        "color": {
+                            "text": "var(--wp--preset--color--content-2)"
+                        }
+                    }
+                }
+            },
+            "core/list": {
+                "color": {
+                    "text": "var(--wp--preset--color--headings)"
+                },
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": "var(--wp--preset--color--accent-1-dark)"
+                            }
+                        },
+                        "color": {
+                            "text": "var(--wp--preset--color--accent-1)"
+                        }
+                    }
+                }
+            },
+            "core/navigation-link": {
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "core/post-author-name": {
+                "color": {
+                    "text": ""
+                },
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": ""
+                            }
+                        },
+                        "color": {
+                            "text": ""
+                        }
+                    }
+                }
+            },
+            "core/post-date": {
+                "color": {
+                    "text": ""
+                },
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": ""
+                            }
+                        },
+                        "color": {
+                            "text": ""
+                        }
+                    }
+                }
+            },
+            "core/post-terms": {
+                "color": {
+                    "text": ""
+                },
+                "elements": {
+                    "link": {
+                        ":hover": {
+                            "color": {
+                                "text": ""
+                            }
+                        },
+                        "color": {
+                            "text": ""
+                        }
+                    }
+                }
+            },
+            "core/pullquote": {
+                "border": {
+                    "bottom": {
+                        "color": "var(--wp--preset--color--accent-1-light)"
+                    },
+                    "color": null,
+                    "top": {
+                        "color": "var(--wp--preset--color--accent-1-light)"
+                    }
+                },
+                "color": {
+                    "text": "var(--wp--preset--color--headings)"
+                },
+                "elements": {
+                    "link": {
+                        "color": {
+                            "text": "var(--wp--preset--color--headings)"
+                        }
+                    }
+                }
+            },
+            "core/query-no-results": {
+                "color": {
+                    "text": "var(--wp--preset--color--content-2)"
+                },
+                "elements": {
+                    "link": {
+                        "color": {
+                            "text": "var(--wp--preset--color--content-2)"
+                        }
+                    }
+                }
+            },
+            "core/quote": {
+                "border": {
+                    "color": null,
+                    "left": {
+                        "color": "var(--wp--preset--color--accent-1-light)"
+                    }
+                },
+                "color": {
+                    "text": "var(--wp--preset--color--headings)"
+                },
+                "elements": {
+                    "heading": {
+                        "color": {
+                            "text": "var(--wp--preset--color--headings)"
+                        }
+                    },
+                    "link": {
+                        "color": {
+                            "text": "var(--wp--preset--color--headings)"
+                        }
+                    }
+                }
+            },
+            "core/read-more": {
+                "border": {
+                    "bottom": {
+                        "color": "var(--wp--preset--color--accent-1)"
+                    },
+                    "color": null
+                },
+                "color": {
+                    "text": "var(--wp--preset--color--headings)"
+                },
+                "elements": {
+                    "link": {
+                        "color": {
+                            "text": "var(--wp--preset--color--headings)"
+                        }
+                    }
+                }
+            },
+            "core/search": {
+                "color": {
+                    "background": "var(--wp--preset--color--background-1)",
+                    "text": "var(--wp--preset--color--headings)"
+                },
+                "elements": {
+                    "link": {
+                        "color": {
+                            "text": "var(--wp--preset--color--headings)"
+                        }
+                    }
+                }
+            }
+        },
+        "color": {
+            "background": "var(--wp--preset--color--white)",
+            "text": "var(--wp--preset--color--content-1)"
+        },
+        "elements": {
+            "button": {
+                ":hover": {
+                    "color": {
+                        "background": "var(--wp--preset--color--accent-1-dark)"
+                    }
+                },
+                "color": {
+                    "background": "var(--wp--preset--color--accent-1)",
+                    "text": "var(--wp--preset--color--contrast-headings)"
+                }
+            },
+            "caption": {
+                "color": {
+                    "text": "var(--wp--preset--color--content-2)"
+                }
+            },
+            "heading": {
+                "color": {
+                    "text": "var(--wp--preset--color--headings)"
+                }
+            },
+            "link": {
+                ":hover": {
+                    "color": {
+                        "text": "var(--wp--preset--color--accent-1)"
+                    }
+                },
+                "color": {
+                    "text": "var(--wp--preset--color--accent-1-dark)"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,163 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wpbbe/contact-form-7",
+  "title": "Better Contact Form 7",
+  "description": "Display a contact form you have created with Contact Form 7.",
+  "category": "widgets",
+  "keywords": [
+    "form",
+    "bbe"
+  ],
+  "textdomain": "better-block-editor",
+  "supports": {
+    "html": false,
+    "layout": false,
+    "spacing": {
+      "margin": true,
+      "padding": true,
+      "blockGap": true,
+      "__experimentalDefaultControls": {
+        "blockGap": true
+      }
+    },
+    "__experimentalBorder": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true,
+      "__experimentalDefaultControls": {
+        "color": true,
+        "radius": true,
+        "style": true,
+        "width": true
+      }
+    },
+    "align": [
+      "wide",
+      "full"
+    ],
+    "color": {
+      "text": true,
+      "background": true,
+      "gradients": true,
+      "__experimentalDefaultControls": {
+        "background": true,
+        "text": true
+      }
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalFontStyle": true,
+      "__experimentalFontWeight": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalTextTransform": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalWritingMode": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    }
+  },
+  "attributes": {
+    "id": {
+      "type": "number",
+      "default": 0
+    },
+    "hash": {
+      "type": "string",
+      "default": ""
+    },
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "justification": {
+      "type": "string",
+      "default": "left"
+    },
+    "hasStretchFields": {
+      "type": "boolean",
+      "default": false
+    },
+    "fieldFontSize": {
+      "type": "string"
+    },
+    "fieldBorderRadius": {
+      "type": "string"
+    },
+    "fieldBorderWidth": {
+      "type": "string"
+    },
+    "fieldSpacing": {
+      "type": "string"
+    },
+    "fieldTextColor": {
+      "type": "string"
+    },
+    "fieldBackgroundColor": {
+      "type": "string"
+    },
+    "fieldBorderColor": {
+      "type": "string"
+    },
+    "fieldTextAccentColor": {
+      "type": "string"
+    },
+    "buttonFontSize": {
+      "type": "string"
+    },
+    "buttonFontWeight": {
+      "type": "number"
+    },
+    "buttonBorderRadius": {
+      "type": "string"
+    },
+    "buttonBorderWidth": {
+      "type": "string"
+    },
+    "buttonTextColor": {
+      "type": "string"
+    },
+    "buttonBackgroundColor": {
+      "type": "string"
+    },
+    "buttonBorderColor": {
+      "type": "string"
+    },
+    "buttonTextHoverColor": {
+      "type": "string"
+    },
+    "buttonBackgroundHoverColor": {
+      "type": "string"
+    },
+    "buttonBorderHoverColor": {
+      "type": "string"
+    },
+    "msgFontSize": {
+      "type": "string"
+    },
+    "msgSpacing": {
+      "type": "string"
+    },
+    "mgsSuccessColor": {
+      "type": "string"
+    },
+    "mgsWarningColor": {
+      "type": "string"
+    },
+    "mgsErrorColor": {
+      "type": "string"
+    }
+  },
+  "selectors": {
+    "spacing": {
+      "blockGap": ".wp-block-wpbbe-contact-form-7 .wpcf7-form"
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

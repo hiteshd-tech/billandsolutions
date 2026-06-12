@@ -1,0 +1,2051 @@
+# Copyright (C) 2026 Dream-Theme
+# This file is distributed under the same license as the The7 Post Types package.
+msgid ""
+msgstr ""
+"Project-Id-Version: The7 Post Types 1.0.0\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/dt-the7-post-types\n"
+"POT-Creation-Date: 2026-01-20 14:01:39+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2026-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.4\n"
+
+#: src/admin-page.php:73 src/admin-page.php:74
+msgid "Post Type Builder"
+msgstr ""
+
+#: src/admin-page.php:126 src/admin-page.php:137
+msgid ""
+"Are you sure you want to delete this? Deleting will NOT remove created "
+"content."
+msgstr ""
+
+#: src/admin-page.php:138
+msgid "Please select a post type to associate with."
+msgstr ""
+
+#: src/handlers/handler.php:86
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+#: src/handlers/post-types-handler.php:91
+msgid "Please provide a post type name"
+msgstr ""
+
+#: src/handlers/post-types-handler.php:104
+msgid "Please do not use quotes in post type names or rewrite slugs"
+msgstr ""
+
+#: src/handlers/post-types-handler.php:235
+msgid "Please choose a different post type name. %s is already registered."
+msgstr ""
+
+#: src/handlers/post-types-handler.php:249
+msgid ""
+"Please choose a different post type name. %s matches an existing page slug, "
+"which can cause conflicts."
+msgstr ""
+
+#: src/handlers/taxonomies-handler.php:49
+msgid "Please provide a taxonomy name"
+msgstr ""
+
+#: src/handlers/taxonomies-handler.php:61
+msgid "Please do not use quotes in taxonomy names or rewrite slugs"
+msgstr ""
+
+#: src/handlers/taxonomies-handler.php:252
+msgid "Please choose a different taxonomy name. %s is already registered."
+msgstr ""
+
+#: src/post-type-builder.php:522 src/post-type-builder.php:541
+#: src/screens/edit-post-type.php:661 src/screens/edit-taxonomy.php:432
+#. translators: Used for autofill
+msgid "Add new %s"
+msgstr ""
+
+#: src/post-type-builder.php:523 src/post-type-builder.php:539
+#: src/screens/edit-post-type.php:675 src/screens/edit-taxonomy.php:390
+#: src/screens/items-list.php:81 src/screens/items-list.php:172
+#. translators: Used for autofill
+msgid "Edit %s"
+msgstr ""
+
+#: src/post-type-builder.php:524 src/screens/edit-post-type.php:689
+#. translators: Used for autofill
+msgid "New %s"
+msgstr ""
+
+#: src/post-type-builder.php:525 src/post-type-builder.php:528
+#: src/screens/edit-post-type.php:703 src/screens/edit-post-type.php:717
+#: src/screens/edit-taxonomy.php:404
+#. translators: Used for autofill
+msgid "View %s"
+msgstr ""
+
+#: src/post-type-builder.php:529 src/post-type-builder.php:547
+#: src/screens/edit-post-type.php:633 src/screens/edit-taxonomy.php:376
+#. translators: Used for autofill
+msgid "All %s"
+msgstr ""
+
+#: src/post-type-builder.php:530 src/post-type-builder.php:545
+#: src/screens/edit-post-type.php:731 src/screens/edit-taxonomy.php:488
+#. translators: Used for autofill
+msgid "Search %s"
+msgstr ""
+
+#: src/post-type-builder.php:531
+msgid "No %s found."
+msgstr ""
+
+#: src/post-type-builder.php:532
+msgid "No %s found in trash."
+msgstr ""
+
+#: src/post-type-builder.php:537 src/screens/edit-taxonomy.php:460
+#. translators: Used for autofill
+msgid "Parent %s"
+msgstr ""
+
+#: src/post-type-builder.php:538 src/screens/edit-post-type.php:774
+#: src/screens/edit-taxonomy.php:474
+#. translators: Used for autofill
+msgid "Parent %s:"
+msgstr ""
+
+#: src/post-type-builder.php:540
+msgid "Update %s"
+msgstr ""
+
+#: src/post-type-builder.php:542 src/screens/edit-taxonomy.php:446
+#. translators: Used for autofill
+msgid "New %s name"
+msgstr ""
+
+#: src/post-type-builder.php:546 src/screens/edit-taxonomy.php:502
+#. translators: Used for autofill
+msgid "Popular %s"
+msgstr ""
+
+#: src/post-type-builder.php:548 src/screens/edit-taxonomy.php:516
+#. translators: Used for autofill
+msgid "Separate %s with commas"
+msgstr ""
+
+#: src/post-type-builder.php:549 src/screens/edit-taxonomy.php:530
+#. translators: Used for autofill
+msgid "Add or remove %s"
+msgstr ""
+
+#: src/post-type-builder.php:550 src/screens/edit-taxonomy.php:544
+#. translators: Used for autofill
+msgid "Choose from the most used %s"
+msgstr ""
+
+#: src/screens/edit-post-type.php:41
+msgid "New Post Type"
+msgstr ""
+
+#: src/screens/edit-post-type.php:43
+msgid "Edit Post Type"
+msgstr ""
+
+#: src/screens/edit-post-type.php:47 src/screens/edit-taxonomy.php:47
+msgid "Items list"
+msgstr ""
+
+#: src/screens/edit-post-type.php:62 src/screens/edit-taxonomy.php:62
+msgid "Basic settings"
+msgstr ""
+
+#: src/screens/edit-post-type.php:66 src/screens/edit-post-type.php:441
+#: src/screens/edit-post-type.php:587 src/screens/edit-taxonomy.php:66
+msgid "Toggle panel: Basic settings"
+msgstr ""
+
+#: src/screens/edit-post-type.php:76
+msgid "Post Type Slug"
+msgstr ""
+
+#: src/screens/edit-post-type.php:80 src/screens/edit-taxonomy.php:79
+msgid "Slug has changed"
+msgstr ""
+
+#: src/screens/edit-post-type.php:82 src/screens/edit-taxonomy.php:81
+msgid "Slug already exists"
+msgstr ""
+
+#: src/screens/edit-post-type.php:91
+msgid ""
+"Use only alphanumeric, latin characters and underscores in place of spaces. "
+"Used for various queries for post type content."
+msgstr ""
+
+#: src/screens/edit-post-type.php:100
+msgid ""
+"DO NOT EDIT the post type slug unless also planning to migrate posts. "
+"Changing the slug registers a new post type entry!"
+msgstr ""
+
+#: src/screens/edit-post-type.php:105
+msgid ""
+"If you want to change it (including the usage of dashes in URLs), apply the "
+"new slug in %s field below."
+msgstr ""
+
+#: src/screens/edit-post-type.php:105 src/screens/edit-post-type.php:469
+#: src/screens/edit-taxonomy.php:221
+msgid "Custom Rewrite Slug"
+msgstr ""
+
+#: src/screens/edit-post-type.php:115
+msgid "Migrate posts to newly renamed post type?"
+msgstr ""
+
+#: src/screens/edit-post-type.php:128 src/screens/edit-taxonomy.php:124
+msgid "Singular Label"
+msgstr ""
+
+#: src/screens/edit-post-type.php:129 src/screens/edit-post-type.php:939
+msgid "(e.g. Movie)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:130 src/screens/edit-taxonomy.php:125
+msgid "Used when a singular label is needed."
+msgstr ""
+
+#: src/screens/edit-post-type.php:138 src/screens/edit-taxonomy.php:134
+msgid "Plural Label"
+msgstr ""
+
+#: src/screens/edit-post-type.php:139
+msgid "(e.g. Movies)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:140
+msgid "Used for the post type admin menu item."
+msgstr ""
+
+#: src/screens/edit-post-type.php:147
+msgid "Admin Menu Position"
+msgstr ""
+
+#: src/screens/edit-post-type.php:150
+msgid "See %s in the \"menu_position\" section. Range of 5-100"
+msgstr ""
+
+#: src/screens/edit-post-type.php:156
+msgid "Available options"
+msgstr ""
+
+#: src/screens/edit-post-type.php:166
+msgid ""
+"Position in admin menu, where the post type should appear. \"Show in Menu\" "
+"must be true."
+msgstr ""
+
+#: src/screens/edit-post-type.php:176
+msgid "Menu Icon"
+msgstr ""
+
+#: src/screens/edit-post-type.php:183
+msgid ""
+"Image URL or %sDashicon class name%s to use for icon. Custom image should "
+"be 20px by 20px."
+msgstr ""
+
+#: src/screens/edit-post-type.php:192
+msgid "Choose dashicon"
+msgstr ""
+
+#: src/screens/edit-post-type.php:199
+msgid "Choose image icon"
+msgstr ""
+
+#: src/screens/edit-post-type.php:206
+msgid "Supports"
+msgstr ""
+
+#: src/screens/edit-post-type.php:208
+msgid "Add support for various available post editor features on the right."
+msgstr ""
+
+#: src/screens/edit-post-type.php:210
+msgid "Use the \"None\" option to disable all features."
+msgstr ""
+
+#: src/screens/edit-post-type.php:214 src/screens/edit-taxonomy.php:141
+msgid "Post type options"
+msgstr ""
+
+#: src/screens/edit-post-type.php:226 src/screens/items-list.php:47
+#: src/screens/items-list.php:149
+msgid "Title"
+msgstr ""
+
+#: src/screens/edit-post-type.php:241
+msgid "Editor"
+msgstr ""
+
+#: src/screens/edit-post-type.php:256 src/screens/edit-post-type.php:780
+msgid "Featured Image"
+msgstr ""
+
+#: src/screens/edit-post-type.php:271
+msgid "Excerpt"
+msgstr ""
+
+#: src/screens/edit-post-type.php:282
+msgid "Trackbacks"
+msgstr ""
+
+#: src/screens/edit-post-type.php:293
+msgid "Custom Fields"
+msgstr ""
+
+#: src/screens/edit-post-type.php:304
+msgid "Comments"
+msgstr ""
+
+#: src/screens/edit-post-type.php:315
+msgid "Revisions"
+msgstr ""
+
+#: src/screens/edit-post-type.php:326
+msgid "Author"
+msgstr ""
+
+#: src/screens/edit-post-type.php:337
+msgid "Page Attributes"
+msgstr ""
+
+#: src/screens/edit-post-type.php:348
+msgid "Post Formats"
+msgstr ""
+
+#: src/screens/edit-post-type.php:359
+msgid "None"
+msgstr ""
+
+#: src/screens/edit-post-type.php:367 src/screens/items-list.php:48
+#: src/screens/items-list.php:143
+msgid "Taxonomies"
+msgstr ""
+
+#: src/screens/edit-post-type.php:373
+msgid ""
+"Add support for available registered taxonomies. Or add a %s for your post "
+"type."
+msgstr ""
+
+#: src/screens/edit-post-type.php:374
+msgid "new one"
+msgstr ""
+
+#: src/screens/edit-post-type.php:381
+msgid "Taxonomy options"
+msgstr ""
+
+#: src/screens/edit-post-type.php:409
+msgid "Adds %s support"
+msgstr ""
+
+#: src/screens/edit-post-type.php:437 src/screens/edit-taxonomy.php:188
+msgid "Settings"
+msgstr ""
+
+#: src/screens/edit-post-type.php:451 src/screens/edit-post-type.php:1038
+#: src/screens/edit-post-type.php:1058 src/screens/edit-post-type.php:1078
+#: src/screens/edit-post-type.php:1098 src/screens/edit-post-type.php:1136
+#: src/screens/edit-post-type.php:1154 src/screens/edit-post-type.php:1188
+#: src/screens/edit-taxonomy.php:202
+msgid "True"
+msgstr ""
+
+#: src/screens/edit-post-type.php:452 src/screens/edit-post-type.php:1035
+#: src/screens/edit-post-type.php:1055 src/screens/edit-post-type.php:1075
+#: src/screens/edit-post-type.php:1095 src/screens/edit-post-type.php:1133
+#: src/screens/edit-post-type.php:1151 src/screens/edit-post-type.php:1185
+#: src/screens/edit-taxonomy.php:203
+msgid "False"
+msgstr ""
+
+#: src/screens/edit-post-type.php:458 src/screens/edit-taxonomy.php:209
+msgid "Rewrite"
+msgstr ""
+
+#: src/screens/edit-post-type.php:459
+msgid ""
+"(default: true) Whether or not WordPress should use rewrites for this post "
+"type."
+msgstr ""
+
+#: src/screens/edit-post-type.php:470
+msgid "(default: post type slug)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:471
+msgid "Custom post type slug to use instead of the default."
+msgstr ""
+
+#: src/screens/edit-post-type.php:477
+msgid "With Front"
+msgstr ""
+
+#: src/screens/edit-post-type.php:478
+msgid ""
+"(default: true) Should the permalink structure be prepended with the front "
+"base. (example: if your permalink structure is /blog/, then your links will "
+"be: false->/news/, true->/blog/news/)."
+msgstr ""
+
+#: src/screens/edit-post-type.php:487
+msgid "Exclude From Search"
+msgstr ""
+
+#: src/screens/edit-post-type.php:488
+msgid ""
+"(default: false) Whether or not to exclude posts with this post type from "
+"front end search results."
+msgstr ""
+
+#: src/screens/edit-post-type.php:498
+msgid "Publicly Queryable"
+msgstr ""
+
+#: src/screens/edit-post-type.php:499
+msgid ""
+"(default: true) Whether or not queries can be performed on the front end as "
+"part of parse_request()"
+msgstr ""
+
+#: src/screens/edit-post-type.php:509
+msgid "Delete with user"
+msgstr ""
+
+#: src/screens/edit-post-type.php:510
+msgid "(default: false) Whether to delete posts of this type when deleting a user."
+msgstr ""
+
+#: src/screens/edit-post-type.php:519
+msgid "Thumbnails admin column"
+msgstr ""
+
+#: src/screens/edit-post-type.php:520
+msgid "(default: false) Whether to show posts thumbnails admin column."
+msgstr ""
+
+#: src/screens/edit-post-type.php:527
+msgid "Has Archive"
+msgstr ""
+
+#: src/screens/edit-post-type.php:528
+msgid "If left blank, the archive slug will default to the post type slug."
+msgstr ""
+
+#: src/screens/edit-post-type.php:534
+msgid ""
+"(default: false) Whether or not the post type will have a post type archive "
+"URL."
+msgstr ""
+
+#: src/screens/edit-post-type.php:547
+msgid "Slug to be used for archive URL."
+msgstr ""
+
+#: src/screens/edit-post-type.php:558
+msgid "Capability Type"
+msgstr ""
+
+#: src/screens/edit-post-type.php:559
+msgid ""
+"The post type to use for checking read, edit, and delete capabilities. A "
+"comma-separated second value can be used for plural version."
+msgstr ""
+
+#: src/screens/edit-post-type.php:583 src/screens/edit-taxonomy.php:327
+msgid "Additional labels"
+msgstr ""
+
+#: src/screens/edit-post-type.php:606
+msgid "Post Type Description"
+msgstr ""
+
+#: src/screens/edit-post-type.php:607
+msgid "Perhaps describe what your custom post type is used for?"
+msgstr ""
+
+#: src/screens/edit-post-type.php:611 src/screens/edit-taxonomy.php:359
+msgid "Menu Name"
+msgstr ""
+
+#: src/screens/edit-post-type.php:612
+msgid "Custom admin menu name for your custom post type."
+msgstr ""
+
+#: src/screens/edit-post-type.php:616
+msgid "(e.g. My Movies)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:619
+#. translators: Used for autofill
+msgid "My %s"
+msgstr ""
+
+#: src/screens/edit-post-type.php:625 src/screens/edit-taxonomy.php:372
+msgid "All Items"
+msgstr ""
+
+#: src/screens/edit-post-type.php:626 src/screens/edit-post-type.php:640
+msgid "Used in the post type admin submenu."
+msgstr ""
+
+#: src/screens/edit-post-type.php:630
+msgid "(e.g. All Movies)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:639
+msgid "Add New"
+msgstr ""
+
+#: src/screens/edit-post-type.php:644
+msgid "(e.g. Add New)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:647 src/screens/items-list.php:42
+#: src/screens/items-list.php:144
+#. translators: Used for autofill
+msgid "Add new"
+msgstr ""
+
+#: src/screens/edit-post-type.php:653 src/screens/edit-taxonomy.php:428
+msgid "Add New Item"
+msgstr ""
+
+#: src/screens/edit-post-type.php:654
+msgid "Used at the top of the post editor screen for a new post type post."
+msgstr ""
+
+#: src/screens/edit-post-type.php:658
+msgid "(e.g. Add New Movie)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:667 src/screens/edit-taxonomy.php:386
+msgid "Edit Item"
+msgstr ""
+
+#: src/screens/edit-post-type.php:668
+msgid "Used at the top of the post editor screen for an existing post type post."
+msgstr ""
+
+#: src/screens/edit-post-type.php:672
+msgid "(e.g. Edit Movie)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:681
+msgid "New Item"
+msgstr ""
+
+#: src/screens/edit-post-type.php:682
+msgid "Post type label. Used in the admin menu for displaying post types."
+msgstr ""
+
+#: src/screens/edit-post-type.php:686
+msgid "(e.g. New Movie)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:695 src/screens/edit-taxonomy.php:400
+msgid "View Item"
+msgstr ""
+
+#: src/screens/edit-post-type.php:696 src/screens/edit-post-type.php:710
+msgid ""
+"Used in the admin bar when viewing editor screen for a published post in "
+"the post type."
+msgstr ""
+
+#: src/screens/edit-post-type.php:700
+msgid "(e.g. View Movie)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:709
+msgid "View Items"
+msgstr ""
+
+#: src/screens/edit-post-type.php:714
+msgid "(e.g. View Movies)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:723
+msgid "Search Item"
+msgstr ""
+
+#: src/screens/edit-post-type.php:724
+msgid "Used as the text for the search button on post type list screen."
+msgstr ""
+
+#: src/screens/edit-post-type.php:728
+msgid "(e.g. Search Movies)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:737
+msgid "Not Found"
+msgstr ""
+
+#: src/screens/edit-post-type.php:738
+msgid "Used when there are no posts to display on the post type list screen."
+msgstr ""
+
+#: src/screens/edit-post-type.php:742
+msgid "(e.g. No Movies found)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:745 src/screens/edit-taxonomy.php:558
+#. translators: Used for autofill
+msgid "No %s found"
+msgstr ""
+
+#: src/screens/edit-post-type.php:751
+msgid "Not Found in Trash"
+msgstr ""
+
+#: src/screens/edit-post-type.php:752
+msgid "Used when there are no posts to display on the post type list trash screen."
+msgstr ""
+
+#: src/screens/edit-post-type.php:756
+msgid "(e.g. No Movies found in Trash)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:759
+#. translators: Used for autofill
+msgid "No %s found in trash"
+msgstr ""
+
+#: src/screens/edit-post-type.php:766
+msgid "Parent"
+msgstr ""
+
+#: src/screens/edit-post-type.php:767
+msgid "Used for hierarchical types that need a colon."
+msgstr ""
+
+#: src/screens/edit-post-type.php:771
+msgid "(e.g. Parent Movie:)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:781
+msgid "Used as the \"Featured Image\" phrase for the post type."
+msgstr ""
+
+#: src/screens/edit-post-type.php:785
+msgid "(e.g. Featured image for this movie)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:788
+#. translators: Used for autofill
+msgid "Featured image for this %s"
+msgstr ""
+
+#: src/screens/edit-post-type.php:794
+msgid "Set Featured Image"
+msgstr ""
+
+#: src/screens/edit-post-type.php:795
+msgid "Used as the \"Set featured image\" phrase for the post type."
+msgstr ""
+
+#: src/screens/edit-post-type.php:799
+msgid "(e.g. Set featured image for this movie)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:802
+#. translators: Used for autofill
+msgid "Set featured image for this %s"
+msgstr ""
+
+#: src/screens/edit-post-type.php:808
+msgid "Remove Featured Image"
+msgstr ""
+
+#: src/screens/edit-post-type.php:809
+msgid "Used as the \"Remove featured image\" phrase for the post type."
+msgstr ""
+
+#: src/screens/edit-post-type.php:813
+msgid "(e.g. Remove featured image for this movie)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:816
+#. translators: Used for autofill
+msgid "Remove featured image for this %s"
+msgstr ""
+
+#: src/screens/edit-post-type.php:822
+msgid "Use Featured Image"
+msgstr ""
+
+#: src/screens/edit-post-type.php:823
+msgid "Used as the \"Use as featured image\" phrase for the post type."
+msgstr ""
+
+#: src/screens/edit-post-type.php:827
+msgid "(e.g. Use as featured image for this movie)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:830
+#. translators: Used for autofill
+msgid "Use as featured image for this %s"
+msgstr ""
+
+#: src/screens/edit-post-type.php:836
+msgid "Archives"
+msgstr ""
+
+#: src/screens/edit-post-type.php:837
+msgid "Post type archive label used in nav menus."
+msgstr ""
+
+#: src/screens/edit-post-type.php:841
+msgid "(e.g. Movie archives)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:844
+#. translators: Used for autofill
+msgid "%s archives"
+msgstr ""
+
+#: src/screens/edit-post-type.php:850
+msgid "Insert into item"
+msgstr ""
+
+#: src/screens/edit-post-type.php:851
+msgid ""
+"Used as the \"Insert into post\" or \"Insert into page\" phrase for the "
+"post type."
+msgstr ""
+
+#: src/screens/edit-post-type.php:855
+msgid "(e.g. Insert into movie)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:858
+#. translators: Used for autofill
+msgid "Insert into %s"
+msgstr ""
+
+#: src/screens/edit-post-type.php:864
+msgid "Uploaded to this Item"
+msgstr ""
+
+#: src/screens/edit-post-type.php:865
+msgid ""
+"Used as the \"Uploaded to this post\" or \"Uploaded to this page\" phrase "
+"for the post type."
+msgstr ""
+
+#: src/screens/edit-post-type.php:869
+msgid "(e.g. Uploaded to this movie)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:872
+#. translators: Used for autofill
+msgid "Upload to this %s"
+msgstr ""
+
+#: src/screens/edit-post-type.php:878
+msgid "Filter Items List"
+msgstr ""
+
+#: src/screens/edit-post-type.php:879
+msgid ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen."
+msgstr ""
+
+#: src/screens/edit-post-type.php:883
+msgid "(e.g. Filter movies list)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:886
+#. translators: Used for autofill
+msgid "Filter %s list"
+msgstr ""
+
+#: src/screens/edit-post-type.php:892 src/screens/edit-taxonomy.php:582
+msgid "Items List Navigation"
+msgstr ""
+
+#: src/screens/edit-post-type.php:893
+msgid ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen."
+msgstr ""
+
+#: src/screens/edit-post-type.php:897
+msgid "(e.g. Movies list navigation)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:900 src/screens/edit-taxonomy.php:586
+#. translators: Used for autofill
+msgid "%s list navigation"
+msgstr ""
+
+#: src/screens/edit-post-type.php:906 src/screens/edit-taxonomy.php:596
+msgid "Items List"
+msgstr ""
+
+#: src/screens/edit-post-type.php:907
+msgid ""
+"Screen reader text for the items list heading on the post type listing "
+"screen."
+msgstr ""
+
+#: src/screens/edit-post-type.php:911
+msgid "(e.g. Movies list)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:914 src/screens/edit-taxonomy.php:600
+#. translators: Used for autofill
+msgid "%s list"
+msgstr ""
+
+#: src/screens/edit-post-type.php:920
+msgid "Attributes"
+msgstr ""
+
+#: src/screens/edit-post-type.php:921
+msgid "Used for the title of the post attributes meta box."
+msgstr ""
+
+#: src/screens/edit-post-type.php:925
+msgid "(e.g. Movies Attributes)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:928
+#. translators: Used for autofill
+msgid "%s attributes"
+msgstr ""
+
+#: src/screens/edit-post-type.php:934
+msgid "\"New\" menu in admin bar"
+msgstr ""
+
+#: src/screens/edit-post-type.php:935
+msgid "Used in New in Admin menu bar. Default \"singular name\" label."
+msgstr ""
+
+#: src/screens/edit-post-type.php:948
+#. translators: Used for autofill
+msgid "Item Published"
+msgstr ""
+
+#: src/screens/edit-post-type.php:949
+msgid ""
+"Used in the editor notice after publishing a post. Default \"Post "
+"published.\" / \"Page published.\""
+msgstr ""
+
+#: src/screens/edit-post-type.php:953
+msgid "(e.g. Movie published)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:956
+#. translators: Used for autofill
+msgid "%s published"
+msgstr ""
+
+#: src/screens/edit-post-type.php:962
+msgid "Item Published Privately"
+msgstr ""
+
+#: src/screens/edit-post-type.php:963
+msgid ""
+"Used in the editor notice after publishing a private post. Default \"Post "
+"published privately.\" / \"Page published privately.\""
+msgstr ""
+
+#: src/screens/edit-post-type.php:967
+msgid "(e.g. Movie published privately.)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:970
+#. translators: Used for autofill
+msgid "%s published privately."
+msgstr ""
+
+#: src/screens/edit-post-type.php:976
+msgid "Item Reverted To Draft"
+msgstr ""
+
+#: src/screens/edit-post-type.php:977
+msgid ""
+"Used in the editor notice after reverting a post to draft. Default \"Post "
+"reverted to draft.\" / \"Page reverted to draft.\""
+msgstr ""
+
+#: src/screens/edit-post-type.php:981
+msgid "(e.g. Movie reverted to draft)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:984
+#. translators: Used for autofill
+msgid "%s reverted to draft."
+msgstr ""
+
+#: src/screens/edit-post-type.php:990
+msgid "Item Scheduled"
+msgstr ""
+
+#: src/screens/edit-post-type.php:991
+msgid ""
+"Used in the editor notice after scheduling a post to be published at a "
+"later date. Default \"Post scheduled.\" / \"Page scheduled.\""
+msgstr ""
+
+#: src/screens/edit-post-type.php:995
+msgid "(e.g. Movie scheduled)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:998
+#. translators: Used for autofill
+msgid "%s scheduled"
+msgstr ""
+
+#: src/screens/edit-post-type.php:1004
+msgid "Item Updated"
+msgstr ""
+
+#: src/screens/edit-post-type.php:1005
+msgid ""
+"Used in the editor notice after updating a post. Default \"Post updated.\" "
+"/ \"Page updated.\""
+msgstr ""
+
+#: src/screens/edit-post-type.php:1009
+msgid "(e.g. Movie updated)"
+msgstr ""
+
+#: src/screens/edit-post-type.php:1012
+#. translators: Used for autofill
+msgid "%s updated."
+msgstr ""
+
+#: src/screens/edit-post-type.php:1048 src/screens/edit-taxonomy.php:694
+msgid "Public"
+msgstr ""
+
+#: src/screens/edit-post-type.php:1049
+msgid ""
+"(Custom Post Type UI default: true) Whether or not posts of this type "
+"should be shown in the admin UI and is publicly queryable."
+msgstr ""
+
+#: src/screens/edit-post-type.php:1068 src/screens/edit-taxonomy.php:704
+msgid "Show UI"
+msgstr ""
+
+#: src/screens/edit-post-type.php:1069
+msgid ""
+"(default: true) Whether or not to generate a default UI for managing this "
+"post type."
+msgstr ""
+
+#: src/screens/edit-post-type.php:1088
+msgid "Show in Nav Menus"
+msgstr ""
+
+#: src/screens/edit-post-type.php:1089
+msgid ""
+"(Custom Post Type UI default: true) Whether or not this post type is "
+"available for selection in navigation menus."
+msgstr ""
+
+#: src/screens/edit-post-type.php:1108 src/screens/edit-taxonomy.php:753
+msgid "Show in REST API"
+msgstr ""
+
+#: src/screens/edit-post-type.php:1109
+msgid ""
+"(Custom Post Type UI default: true) Whether or not to show this post type "
+"data in the WP REST API."
+msgstr ""
+
+#: src/screens/edit-post-type.php:1116 src/screens/edit-taxonomy.php:763
+msgid "REST API base slug"
+msgstr ""
+
+#: src/screens/edit-post-type.php:1117 src/screens/edit-taxonomy.php:764
+msgid "Slug to use in REST API URLs."
+msgstr ""
+
+#: src/screens/edit-post-type.php:1124 src/screens/edit-taxonomy.php:771
+msgid "REST API controller class"
+msgstr ""
+
+#: src/screens/edit-post-type.php:1125
+msgid ""
+"(default: WP_REST_Posts_Controller) Custom controller to use instead of "
+"WP_REST_Posts_Controller."
+msgstr ""
+
+#: src/screens/edit-post-type.php:1144 src/screens/edit-taxonomy.php:257
+msgid "Hierarchical"
+msgstr ""
+
+#: src/screens/edit-post-type.php:1145
+msgid ""
+"(default: false) Whether or not the post type can have parent-child "
+"relationships. At least one published content item is needed in order to "
+"select a parent."
+msgstr ""
+
+#: src/screens/edit-post-type.php:1164 src/screens/edit-taxonomy.php:734
+msgid "Query Var"
+msgstr ""
+
+#: src/screens/edit-post-type.php:1165
+msgid "(default: true) Sets the query_var key for this post type."
+msgstr ""
+
+#: src/screens/edit-post-type.php:1173
+msgid "Custom Query Var Slug"
+msgstr ""
+
+#: src/screens/edit-post-type.php:1174
+msgid "(default: post type slug) Query var needs to be true to use."
+msgstr ""
+
+#: src/screens/edit-post-type.php:1175
+msgid "Custom query var slug to use instead of the default."
+msgstr ""
+
+#: src/screens/edit-post-type.php:1179
+msgid "Show in Menu"
+msgstr ""
+
+#: src/screens/edit-post-type.php:1180
+msgid ""
+"\"Show UI\" must be \"true\". If an existing top level page such as "
+"\"tools.php\" is indicated for second input, post type will be sub menu of "
+"that."
+msgstr ""
+
+#: src/screens/edit-post-type.php:1198
+msgid ""
+"(default: true) Whether or not to show the post type in the admin menu and "
+"where to show that menu."
+msgstr ""
+
+#: src/screens/edit-post-type.php:1209
+msgid ""
+"The top-level admin menu page file name for which the post type should be "
+"in the sub menu of."
+msgstr ""
+
+#: src/screens/edit-post-type.php:1215
+msgid "Custom \"Supports\""
+msgstr ""
+
+#: src/screens/edit-post-type.php:1216
+msgid "Use this input to register custom \"supports\" values, separated by commas."
+msgstr ""
+
+#: src/screens/edit-post-type.php:1222
+msgid "Provide custom support slugs here."
+msgstr ""
+
+#: src/screens/edit-post-type.php:1237
+msgid "Save Post Type"
+msgstr ""
+
+#: src/screens/edit-post-type.php:1242
+msgid "Delete Post Type"
+msgstr ""
+
+#: src/screens/edit-post-type.php:1244 src/screens/edit-taxonomy.php:800
+msgid "Restore to default"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:41
+msgid "New Taxonomy"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:43
+msgid "Edit Taxonomy"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:76
+msgid "Taxonomy Slug"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:90
+msgid "The taxonomy name/slug. Used for various queries for taxonomy content."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:98
+msgid ""
+"Slugs should only contain alphanumeric, latin characters. Underscores "
+"should be used in place of spaces. Set \"Custom Rewrite Slug\" field to "
+"make slug use dashes for URLs."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:103
+msgid ""
+"DO NOT EDIT the taxonomy slug unless also planning to migrate terms. "
+"Changing the slug registers a new taxonomy entry."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:112
+msgid "Migrate terms to newly renamed taxonomy?"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:123
+msgid "(e.g. Actor)"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:133 src/screens/edit-taxonomy.php:358
+msgid "(e.g. Actors)"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:135
+msgid "Used for the taxonomy admin menu item."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:144
+msgid "Attached Post Types"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:152
+msgid "Attach to Post Type"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:153
+msgid ""
+"Add support for available registered post types. Only public post types "
+"listed by default."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:192
+msgid "Toggle panel: Settings"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:210
+msgid ""
+"(default: true) Whether or not WordPress should use rewrites for this "
+"taxonomy."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:220
+msgid "(default: taxonomy name)"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:222
+msgid "Custom taxonomy rewrite slug."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:228
+msgid "Rewrite With Front"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:229
+msgid "(default: true) Should the permastruct be prepended with the front base."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:238
+msgid "Rewrite Hierarchical"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:239
+msgid "(default: false) Should the permastruct allow hierarchical urls."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:249
+msgid "Default Term"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:250
+msgid ""
+"Set a default term for the taxonomy. Able to set a name, slug, and "
+"description. Only a name is required if setting a default, others are "
+"optional. Set values in the following order, separated by comma. Example: "
+"name, slug, description"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:258
+msgid "(default: false) Whether the taxonomy can have parent-child relationships."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:267
+msgid "Public Queryable"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:268
+msgid "(default: true) Whether or not the taxonomy should be publicly queryable."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:277
+msgid "Show Admin Column"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:278
+msgid ""
+"(default: false) Whether to allow automatic creation of taxonomy columns on "
+"associated post-types."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:287
+msgid "Show in quick/bulk edit panel."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:288
+msgid "(default: false) Whether to show the taxonomy in the quick/bulk edit panel."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:297
+msgid "Show in tag cloud."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:298
+msgid ""
+"(default: false) Whether to list the taxonomy in the Tag Cloud Widget "
+"controls."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:331
+msgid "Toggle panel: Additional labels"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:350
+msgid "Description"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:351
+msgid "Describe what your taxonomy is used for."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:360
+msgid "Custom admin menu name for your taxonomy."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:371
+msgid "(e.g. All Actors)"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:373
+msgid ""
+"Used as tab text when showing all terms for hierarchical taxonomy while "
+"editing post."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:385
+msgid "(e.g. Edit Actor)"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:387
+msgid "Used at the top of the term editor screen for an existing taxonomy term."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:399
+msgid "(e.g. View Actor)"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:401
+msgid ""
+"Used in the admin bar when viewing editor screen for an existing taxonomy "
+"term."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:413
+msgid "(e.g. Update Actor Name)"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:414
+msgid "Update Item Name"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:415 src/screens/edit-taxonomy.php:443
+#: src/screens/edit-taxonomy.php:457 src/screens/edit-taxonomy.php:471
+#: src/screens/edit-taxonomy.php:485 src/screens/edit-taxonomy.php:499
+#: src/screens/edit-taxonomy.php:513 src/screens/edit-taxonomy.php:527
+msgid "Custom taxonomy label. Used in the admin menu for displaying taxonomies."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:418
+#. translators: Used for autofill
+msgid "Update %s name"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:427
+msgid "(e.g. Add New Actor)"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:429
+msgid ""
+"Used at the top of the term editor screen and button text for a new "
+"taxonomy term."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:441
+msgid "(e.g. New Actor Name)"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:442
+msgid "New Item Name"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:455
+msgid "(e.g. Parent Actor)"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:456
+msgid "Parent Item"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:469
+msgid "(e.g. Parent Actor:)"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:470
+msgid "Parent Item Colon"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:483
+msgid "(e.g. Search Actors)"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:484
+msgid "Search Items"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:497
+msgid "(e.g. Popular Actors)"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:498
+msgid "Popular Items"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:511
+msgid "(e.g. Separate Actors with commas)"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:512
+msgid "Separate Items with Commas"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:525
+msgid "(e.g. Add or remove Actors)"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:526
+msgid "Add or Remove Items"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:539
+msgid "(e.g. Choose from the most used Actors)"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:540
+msgid "Choose From Most Used"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:541
+msgid ""
+"The text displayed via clicking ‘Choose from the most used items’ in the "
+"taxonomy meta box when no items are available."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:553
+msgid "(e.g. No Actors found)"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:554
+msgid "Not found"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:555
+msgid ""
+"Used when indicating that there are no terms in the given taxonomy within "
+"the meta box and taxonomy list table."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:567
+msgid "(e.g. No actors)"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:568
+msgid "No terms"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:569
+msgid ""
+"Used when indicating that there are no terms in the given taxonomy "
+"associated with an object."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:572
+#. translators: Used for autofill
+msgid "No %s"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:581
+msgid "(e.g. Actors list navigation)"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:583
+msgid "Screen reader text for the pagination heading on the term listing screen."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:595
+msgid "(e.g. Actors list)"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:597
+msgid "Screen reader text for the items list heading on the term listing screen."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:609
+msgid "(e.g. &larr; Back to actors"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:610
+msgid "Back to Items"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:611
+msgid ""
+"The text displayed after a term has been updated for a link back to main "
+"index."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:614
+#. translators: Used for autofill
+msgid "Back to %s"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:633
+msgid "(WP Core)"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:695
+msgid ""
+"(default: true) Whether a taxonomy is intended for use publicly either via "
+"the admin interface or by front-end users."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:705
+msgid ""
+"(default: true) Whether to generate a default UI for managing this custom "
+"taxonomy."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:714
+msgid "Show in menu"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:715
+msgid "(default: value of show_ui) Whether to show the taxonomy in the admin menu."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:724
+msgid "Show in nav menus"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:725
+msgid ""
+"(default: value of public) Whether to make the taxonomy available for "
+"selection in navigation menus."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:735
+msgid "(default: true) Sets the query_var key for this taxonomy."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:745
+msgid "(default: taxonomy slug). Query var needs to be true to use."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:746
+msgid "Custom Query Var String"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:747
+msgid "Sets a custom query_var slug for this taxonomy."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:754
+msgid ""
+"(Custom Post Type UI default: true) Whether to show this taxonomy data in "
+"the WP REST API."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:772
+msgid ""
+"(default: WP_REST_Terms_Controller) Custom controller to use instead of "
+"WP_REST_Terms_Controller."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:780
+msgid "Metabox callback"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:781
+msgid ""
+"Sets a callback function name for the meta box display. Hierarchical "
+"default: post_categories_meta_box, non-hierarchical default: "
+"post_tags_meta_box. To remove the metabox completely, use \"false\"."
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:793
+msgid "Save Taxonomy"
+msgstr ""
+
+#: src/screens/edit-taxonomy.php:798
+msgid "Delete Taxonomy"
+msgstr ""
+
+#: src/screens/items-list.php:41 src/screens/items-list.php:150
+msgid "Post Types"
+msgstr ""
+
+#: src/screens/items-list.php:77
+msgid "Activate"
+msgstr ""
+
+#: src/screens/items-list.php:81 src/screens/items-list.php:172
+msgid "Edit"
+msgstr ""
+
+#: src/screens/items-list.php:85
+msgid "View %s post type"
+msgstr ""
+
+#: src/screens/items-list.php:85
+msgid "View"
+msgstr ""
+
+#: src/screens/items-list.php:89
+msgid "Deactivate"
+msgstr ""
+
+#: src/screens/items-list.php:91 src/screens/items-list.php:176
+msgid "Delete"
+msgstr ""
+
+#: src/screens/items-list.php:248
+msgid "Show more details"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "The7 Post Types"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Custom Post Types for The7"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Dream-Theme"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://dream-theme.com/"
+msgstr ""
+
+#: src/bundled/albums-category-taxonomy.php:26
+#: src/bundled/albums-category-taxonomy.php:36
+msgctxt "backend albums"
+msgid "Album Categories"
+msgstr ""
+
+#: src/bundled/albums-category-taxonomy.php:27
+msgctxt "backend albums"
+msgid "Album Category"
+msgstr ""
+
+#: src/bundled/albums-category-taxonomy.php:28
+msgctxt "backend albums"
+msgid "Search in Category"
+msgstr ""
+
+#: src/bundled/albums-category-taxonomy.php:29
+msgctxt "backend albums"
+msgid "Photo Album Categories"
+msgstr ""
+
+#: src/bundled/albums-category-taxonomy.php:30
+msgctxt "backend albums"
+msgid "Parent Category"
+msgstr ""
+
+#: src/bundled/albums-category-taxonomy.php:31
+msgctxt "backend albums"
+msgid "Parent Category:"
+msgstr ""
+
+#: src/bundled/albums-category-taxonomy.php:32
+msgctxt "backend albums"
+msgid "Edit Category"
+msgstr ""
+
+#: src/bundled/albums-category-taxonomy.php:33
+msgctxt "backend albums"
+msgid "Update Category"
+msgstr ""
+
+#: src/bundled/albums-category-taxonomy.php:34
+msgctxt "backend albums"
+msgid "Add New Album Category"
+msgstr ""
+
+#: src/bundled/albums-category-taxonomy.php:35
+msgctxt "backend albums"
+msgid "New Album Category Name"
+msgstr ""
+
+#: src/bundled/albums-post-type.php:24 src/bundled/albums-post-type.php:35
+msgctxt "backend albums"
+msgid "Photo Albums"
+msgstr ""
+
+#: src/bundled/albums-post-type.php:25
+msgctxt "backend albums"
+msgid "Photo Album"
+msgstr ""
+
+#: src/bundled/albums-post-type.php:26 src/bundled/albums-post-type.php:27
+msgctxt "backend albums"
+msgid "Add New Album"
+msgstr ""
+
+#: src/bundled/albums-post-type.php:28
+msgctxt "backend albums"
+msgid "Edit Album"
+msgstr ""
+
+#: src/bundled/albums-post-type.php:29
+msgctxt "backend albums"
+msgid "New Album"
+msgstr ""
+
+#: src/bundled/albums-post-type.php:30
+msgctxt "backend albums"
+msgid "View Album"
+msgstr ""
+
+#: src/bundled/albums-post-type.php:31
+msgctxt "backend albums"
+msgid "Search for Albums"
+msgstr ""
+
+#: src/bundled/albums-post-type.php:32
+msgctxt "backend albums"
+msgid "No Albums Found"
+msgstr ""
+
+#: src/bundled/albums-post-type.php:33
+msgctxt "backend albums"
+msgid "No Albums Found in Trash"
+msgstr ""
+
+#: src/bundled/slideshow-post-type.php:24
+#: src/bundled/slideshow-post-type.php:35
+msgctxt "backend albums"
+msgid "Slideshows"
+msgstr ""
+
+#: src/bundled/slideshow-post-type.php:25
+msgctxt "backend albums"
+msgid "Slider"
+msgstr ""
+
+#: src/bundled/slideshow-post-type.php:26
+msgctxt "backend albums"
+msgid "Add New"
+msgstr ""
+
+#: src/bundled/slideshow-post-type.php:27
+msgctxt "backend albums"
+msgid "Add New Slider"
+msgstr ""
+
+#: src/bundled/slideshow-post-type.php:28
+msgctxt "backend albums"
+msgid "Edit Slider"
+msgstr ""
+
+#: src/bundled/slideshow-post-type.php:29
+msgctxt "backend albums"
+msgid "New Slider"
+msgstr ""
+
+#: src/bundled/slideshow-post-type.php:30
+msgctxt "backend albums"
+msgid "View Slider"
+msgstr ""
+
+#: src/bundled/slideshow-post-type.php:31
+msgctxt "backend albums"
+msgid "Search for Slideshow"
+msgstr ""
+
+#: src/bundled/slideshow-post-type.php:32
+msgctxt "backend albums"
+msgid "No Slideshow Found"
+msgstr ""
+
+#: src/bundled/slideshow-post-type.php:33
+msgctxt "backend albums"
+msgid "No Slideshow Found in Trash"
+msgstr ""
+
+#: src/bundled/portfolio-category-taxonomy.php:26
+#: src/bundled/portfolio-category-taxonomy.php:29
+#: src/bundled/portfolio-category-taxonomy.php:36
+msgctxt "backend portfolio"
+msgid "Portfolio Categories"
+msgstr ""
+
+#: src/bundled/portfolio-category-taxonomy.php:27
+msgctxt "backend portfolio"
+msgid "Portfolio Category"
+msgstr ""
+
+#: src/bundled/portfolio-category-taxonomy.php:28
+msgctxt "backend portfolio"
+msgid "Search in Category"
+msgstr ""
+
+#: src/bundled/portfolio-category-taxonomy.php:30
+msgctxt "backend portfolio"
+msgid "Parent Portfolio Category"
+msgstr ""
+
+#: src/bundled/portfolio-category-taxonomy.php:31
+msgctxt "backend portfolio"
+msgid "Parent Portfolio Category:"
+msgstr ""
+
+#: src/bundled/portfolio-category-taxonomy.php:32
+msgctxt "backend portfolio"
+msgid "Edit Category"
+msgstr ""
+
+#: src/bundled/portfolio-category-taxonomy.php:33
+msgctxt "backend portfolio"
+msgid "Update Category"
+msgstr ""
+
+#: src/bundled/portfolio-category-taxonomy.php:34
+msgctxt "backend portfolio"
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: src/bundled/portfolio-category-taxonomy.php:35
+msgctxt "backend portfolio"
+msgid "New Category Name"
+msgstr ""
+
+#: src/bundled/portfolio-post-type.php:24
+#: src/bundled/portfolio-post-type.php:35
+msgctxt "backend portfolio"
+msgid "Portfolio"
+msgstr ""
+
+#: src/bundled/portfolio-post-type.php:25
+msgctxt "backend portfolio"
+msgid "Project"
+msgstr ""
+
+#: src/bundled/portfolio-post-type.php:26
+msgctxt "backend portfolio"
+msgid "Add New"
+msgstr ""
+
+#: src/bundled/portfolio-post-type.php:27
+msgctxt "backend portfolio"
+msgid "Add New Item"
+msgstr ""
+
+#: src/bundled/portfolio-post-type.php:28
+msgctxt "backend portfolio"
+msgid "Edit Item"
+msgstr ""
+
+#: src/bundled/portfolio-post-type.php:29
+msgctxt "backend portfolio"
+msgid "New Item"
+msgstr ""
+
+#: src/bundled/portfolio-post-type.php:30
+msgctxt "backend portfolio"
+msgid "View Item"
+msgstr ""
+
+#: src/bundled/portfolio-post-type.php:31
+msgctxt "backend portfolio"
+msgid "Search Items"
+msgstr ""
+
+#: src/bundled/portfolio-post-type.php:32
+msgctxt "backend portfolio"
+msgid "No items found"
+msgstr ""
+
+#: src/bundled/portfolio-post-type.php:33
+msgctxt "backend portfolio"
+msgid "No items found in Trash"
+msgstr ""
+
+#: src/bundled/portfolio-tags-taxonomy.php:26
+#: src/bundled/portfolio-tags-taxonomy.php:29
+#: src/bundled/portfolio-tags-taxonomy.php:36
+msgctxt "backend portfolio"
+msgid "Portfolio Tags"
+msgstr ""
+
+#: src/bundled/portfolio-tags-taxonomy.php:27
+msgctxt "backend portfolio"
+msgid "Portfolio Tag"
+msgstr ""
+
+#: src/bundled/portfolio-tags-taxonomy.php:28
+msgctxt "backend portfolio"
+msgid "Search in Tags"
+msgstr ""
+
+#: src/bundled/portfolio-tags-taxonomy.php:30
+msgctxt "backend portfolio"
+msgid "Parent Portfolio Tag"
+msgstr ""
+
+#: src/bundled/portfolio-tags-taxonomy.php:31
+msgctxt "backend portfolio"
+msgid "Parent Portfolio Tag:"
+msgstr ""
+
+#: src/bundled/portfolio-tags-taxonomy.php:32
+msgctxt "backend portfolio"
+msgid "Edit Tag"
+msgstr ""
+
+#: src/bundled/portfolio-tags-taxonomy.php:33
+msgctxt "backend portfolio"
+msgid "Update Tag"
+msgstr ""
+
+#: src/bundled/portfolio-tags-taxonomy.php:34
+msgctxt "backend portfolio"
+msgid "Add New Portfolio Tag"
+msgstr ""
+
+#: src/bundled/portfolio-tags-taxonomy.php:35
+msgctxt "backend portfolio"
+msgid "New Tag Name"
+msgstr ""
+
+#: src/bundled/team-category-taxonomy.php:26
+#: src/bundled/team-category-taxonomy.php:29
+#: src/bundled/team-category-taxonomy.php:36
+msgctxt "backend team"
+msgid "Team Categories"
+msgstr ""
+
+#: src/bundled/team-category-taxonomy.php:27
+msgctxt "backend team"
+msgid "Team Category"
+msgstr ""
+
+#: src/bundled/team-category-taxonomy.php:28
+msgctxt "backend team"
+msgid "Search in Team Category"
+msgstr ""
+
+#: src/bundled/team-category-taxonomy.php:30
+msgctxt "backend team"
+msgid "Parent Team Category"
+msgstr ""
+
+#: src/bundled/team-category-taxonomy.php:31
+msgctxt "backend team"
+msgid "Parent Team Category:"
+msgstr ""
+
+#: src/bundled/team-category-taxonomy.php:32
+msgctxt "backend team"
+msgid "Edit Team Category"
+msgstr ""
+
+#: src/bundled/team-category-taxonomy.php:33
+msgctxt "backend team"
+msgid "Update Team Category"
+msgstr ""
+
+#: src/bundled/team-category-taxonomy.php:34
+msgctxt "backend team"
+msgid "Add New Team Category"
+msgstr ""
+
+#: src/bundled/team-category-taxonomy.php:35
+msgctxt "backend team"
+msgid "New Team Category Name"
+msgstr ""
+
+#: src/bundled/team-post-type.php:24 src/bundled/team-post-type.php:35
+msgctxt "backend team"
+msgid "Team"
+msgstr ""
+
+#: src/bundled/team-post-type.php:25
+msgctxt "backend team"
+msgid "Teammate"
+msgstr ""
+
+#: src/bundled/team-post-type.php:26
+msgctxt "backend team"
+msgid "Add New"
+msgstr ""
+
+#: src/bundled/team-post-type.php:27
+msgctxt "backend team"
+msgid "Add New Teammate"
+msgstr ""
+
+#: src/bundled/team-post-type.php:28
+msgctxt "backend team"
+msgid "Edit Teammate"
+msgstr ""
+
+#: src/bundled/team-post-type.php:29
+msgctxt "backend team"
+msgid "New Teammate"
+msgstr ""
+
+#: src/bundled/team-post-type.php:30
+msgctxt "backend team"
+msgid "View Teammate"
+msgstr ""
+
+#: src/bundled/team-post-type.php:31
+msgctxt "backend team"
+msgid "Search Teammates"
+msgstr ""
+
+#: src/bundled/team-post-type.php:32
+msgctxt "backend team"
+msgid "No teammates found"
+msgstr ""
+
+#: src/bundled/team-post-type.php:33
+msgctxt "backend team"
+msgid "No Teammates found in Trash"
+msgstr ""
+
+#: src/bundled/testimonials-category-taxonomy.php:26
+#: src/bundled/testimonials-category-taxonomy.php:36
+msgctxt "backend testimonials"
+msgid "Testimonial Categories"
+msgstr ""
+
+#: src/bundled/testimonials-category-taxonomy.php:27
+msgctxt "backend testimonials"
+msgid "Testimonial Category"
+msgstr ""
+
+#: src/bundled/testimonials-category-taxonomy.php:28
+msgctxt "backend testimonials"
+msgid "Search in Category"
+msgstr ""
+
+#: src/bundled/testimonials-category-taxonomy.php:29
+msgctxt "backend testimonials"
+msgid "Categories"
+msgstr ""
+
+#: src/bundled/testimonials-category-taxonomy.php:30
+msgctxt "backend testimonials"
+msgid "Parent Category"
+msgstr ""
+
+#: src/bundled/testimonials-category-taxonomy.php:31
+msgctxt "backend testimonials"
+msgid "Parent Category:"
+msgstr ""
+
+#: src/bundled/testimonials-category-taxonomy.php:32
+msgctxt "backend testimonials"
+msgid "Edit Category"
+msgstr ""
+
+#: src/bundled/testimonials-category-taxonomy.php:33
+msgctxt "backend testimonials"
+msgid "Update Category"
+msgstr ""
+
+#: src/bundled/testimonials-category-taxonomy.php:34
+msgctxt "backend testimonials"
+msgid "Add New Testimonial Category"
+msgstr ""
+
+#: src/bundled/testimonials-category-taxonomy.php:35
+msgctxt "backend testimonials"
+msgid "New Category Name"
+msgstr ""
+
+#: src/bundled/testimonials-post-type.php:24
+#: src/bundled/testimonials-post-type.php:25
+#: src/bundled/testimonials-post-type.php:35
+msgctxt "backend testimonials"
+msgid "Testimonials"
+msgstr ""
+
+#: src/bundled/testimonials-post-type.php:26
+#: src/bundled/testimonials-post-type.php:27
+msgctxt "backend testimonials"
+msgid "Add New Testimonial"
+msgstr ""
+
+#: src/bundled/testimonials-post-type.php:28
+msgctxt "backend testimonials"
+msgid "Edit Testimonial"
+msgstr ""
+
+#: src/bundled/testimonials-post-type.php:29
+msgctxt "backend testimonials"
+msgid "New Testimonial"
+msgstr ""
+
+#: src/bundled/testimonials-post-type.php:30
+msgctxt "backend testimonials"
+msgid "View Testimonial"
+msgstr ""
+
+#: src/bundled/testimonials-post-type.php:31
+msgctxt "backend testimonials"
+msgid "Search Testimonials"
+msgstr ""
+
+#: src/bundled/testimonials-post-type.php:32
+msgctxt "backend testimonials"
+msgid "No Testimonials found"
+msgstr ""
+
+#: src/bundled/testimonials-post-type.php:33
+msgctxt "backend testimonials"
+msgid "No Testimonials found in Trash"
+msgstr ""

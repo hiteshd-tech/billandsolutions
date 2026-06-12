@@ -1,0 +1,119 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wpbbe/simple-scroller-indicator",
+  "title": "Scroll Progress",
+  "description": "Scroll Progress",
+  "category": "layout",
+  "textdomain": "better-block-editor",
+  "ancestor": [
+    "wpbbe/simple-scroller"
+  ],
+  "supports": {
+    "html": false,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "attributes": {
+    "trackWidth": {
+      "type": "string"
+    },
+    "trackHeight": {
+      "type": "string"
+    },
+    "indicatorHeight": {
+      "type": "string"
+    },
+    "trackColor": {
+      "type": "string"
+    },
+    "indicatorColor": {
+      "type": "string"
+    },
+    "alignment": {
+      "type": "string"
+    },
+    "trackBorder": {
+      "type": "object",
+      "radius": {
+        "type": "string"
+      },
+      "width": {
+        "type": "string"
+      },
+      "style": {
+        "type": "string"
+      },
+      "color": {
+        "type": "string"
+      },
+      "top": {
+        "type": "object"
+      },
+      "right": {
+        "type": "object"
+      },
+      "bottom": {
+        "type": "object"
+      },
+      "left": {
+        "type": "object"
+      }
+    },
+    "indicatorBorder": {
+      "type": "object",
+      "radius": {
+        "type": "string"
+      },
+      "width": {
+        "type": "string"
+      },
+      "style": {
+        "type": "string"
+      },
+      "color": {
+        "type": "string"
+      },
+      "top": {
+        "type": "object"
+      },
+      "right": {
+        "type": "object"
+      },
+      "bottom": {
+        "type": "object"
+      },
+      "left": {
+        "type": "object"
+      }
+    },
+    "overlap": {
+      "type": "string"
+    },
+    "overlapOffset": {
+      "type": "string"
+    },
+    "wpbbeResponsive": {
+      "type": "object",
+      "breakpoint": {
+        "type": "string"
+      },
+      "breakpointCustomValue": {
+        "type": "string"
+      },
+      "settings": {
+        "overlap": {
+          "type": "string"
+        },
+        "overlapOffset": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "editorScript": [
+    "file:./index.js"
+  ]
+}

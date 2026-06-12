@@ -1,0 +1,14 @@
+@import "shortcodes/accordion.less";
+@import "shortcodes/progress-bar.less";
+@import "shortcodes/tabs.less";
+@import "shortcodes/pie-chart.less";
+
+//Fix wpbakery 8.5 full width row
+/* Override new Bakery code: use -15px to match the default row margin in js_composer.min.css.
+ * The new code was using `margin-left: calc(-50vw + 50%)`, which caused layout misalignment.
+ */
+.vc_row[data-vc-full-width-temp],
+.vc_section[data-vc-full-width-temp]{
+  margin-left:-15px;
+  margin-right:-15px;
+}

@@ -1,0 +1,34 @@
+/*
+ Theme Name: DT The7 Child
+ Theme URI: https://example.com/
+ Description: Child theme for The7.
+ Author: Your Name
+ Template: dt-the7
+ Version: 1.0.0
+ Text Domain: dt-the7-child
+*/
+
+/* Add your custom styles below */
+
+#gform_1 input, #gform_1 textarea, #gform_2 input, #gform_2 textarea {
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #cfd8dc9e;
+    color: #263238;
+    background-color: #fafbfc;
+    font-size: 15px;
+    height: 45px;
+}
+
+#gform_1 input#gform_submit_button_1, #gform_2 input#gform_submit_button_2{
+	background-color: #2962ff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: UPPERCASE;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+.gform-theme--foundation .gform_fields{
+	row-gap: 15px !important;
+}

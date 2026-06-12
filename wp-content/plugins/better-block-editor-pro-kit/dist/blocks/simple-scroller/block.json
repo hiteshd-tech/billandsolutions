@@ -1,0 +1,57 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wpbbe/simple-scroller",
+  "title": "Scroller",
+  "description": "A scrollable container for different blocks.",
+  "category": "layout",
+  "textdomain": "better-block-editor",
+  "supports": {
+    "html": false,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    },
+    "__experimentalBorder": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true,
+      "__experimentalDefaultControls": {
+        "color": true,
+        "radius": true,
+        "style": true,
+        "width": true
+      }
+    },
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "wpbbeResponsive": {
+      "type": "object",
+      "breakpoint": {
+        "type": "string"
+      },
+      "breakpointCustomValue": {
+        "type": "string"
+      },
+      "settings": {
+        "isWideWidth": {
+          "type": "boolean"
+        }
+      }
+    }
+  },
+  "editorScript": [
+    "file:./index.js"
+  ],
+  "editorStyle": [
+    "file:./index.css"
+  ],
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "viewStyle": "file:./view.css"
+}
